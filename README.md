@@ -1,13 +1,8 @@
 hoperuntest
-<br/>
 ===========
-<br/>
 江苏润和职级在线考试试题爬虫
-<br/>
 ===========
-<br/>
 ./html:
-<br/>
 	test_no_ie.html —— 去除IE限制的html静态文件，让chrome可以访问考试系统，方便调试
 	test.html —— 原登陆页面直接command+s
 	BaseTool.js —— 原页面JS
