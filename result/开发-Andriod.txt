@@ -1,0 +1,1788 @@
+[
+ {
+  "A_CONTENT": "在继承中，关于构造方法的说明，下列说法错误的是", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、子类无条件的继承父类的无参构造方法，", 
+   "B:B、子类可以引用父类中的有参构造方法，使用super关键字，", 
+   "C:C、如果子类没有构造方法，则父类无参构造方法作为自已的构造方法，", 
+   "D:D、如果子类有无参构造方法，而父类的无参构造方法则被覆盖"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"What interfaces can be implemented in order to create a class that can be serialized? (Choose allthat apply.)\"", 
+  "B_ANSWER": "B,E", 
+  "C_OPTIONS": [
+   "A:A. No interfaces need to be implemented. All classes can be serialized.", 
+   "B:\"B. Have the class declare that it implements java.io.Serializable. There are no methods inthe interface.\"", 
+   "C:\"C. Have the class declare that it implements java.io.Serializable, which defines twomethods: readObject and writeObject.\"", 
+   "D:\"D. Have the class declare that it implements java.io.Externalizable, which defines twomethods: readObject and writeObject.\"", 
+   "E:\"E. Have the class declare that it implements java.io.Externalizable, which defines twomethods: readExternal and writeExternal\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "UML中关联的多重度是指", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、一个类有多个方法被另一个类调用", 
+   "B:B、一个类的实类能够与另一个类的多个实类相关联", 
+   "C:C、一个类的某个方法被另一个类调用的次数", 
+   "D:D、两个类所具有的相同的方法和属性"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在一个带权连通图G中，权值最小的边一定包含在G的", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A．最小生成树中", 
+   "B:B．深度优先生成树中", 
+   "C:C．广度优先生成树中", 
+   "D:D．深度优先生成森林中"
+  ]
+ }, 
+ {
+  "A_CONTENT": "能够自动完成输入内容的组件是", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A,TextView ", 
+   "B:B,EditText ", 
+   "C:C,ImageView", 
+   "D:D,AutoCompleteTextView"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于AndroidManifest.xml文件，以下描述错误的选项有哪些？", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A、在所有的元素中只有<manifest>和<application>是必需的，且只能出现一次", 
+   "B:B、处于同一层次的元素，不能随意打乱顺序", 
+   "C:C、元素属性一般都是可选的，但是有些属性是必须设置的", 
+   "D:D、对可选的属性，即使不写，也有默认的数值项说明"
+  ]
+ }, 
+ {
+  "A_CONTENT": "由两个栈共享一个向量空间的好处是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:   A．减少存取时间，降低下溢发生的机率", 
+   "B:   B．节省存储空间，降低上溢发生的机率", 
+   "C:   C．减少存取时间，降低上溢发生的机率", 
+   "D:   D．节省存储空间，降低下溢发生的机率"
+  ]
+ }, 
+ {
+  "A_CONTENT": "绑定Service的方法是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A,bindService   ", 
+   "B:B, startService   ", 
+   "C:C,onStart    ", 
+   "D:D,onBind"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose you are writing a class that will provide custom deserialization. The class implementsjava.io.Serializable (not java.io.Externalizable). What access mode should thereadObject() method have?\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A. public", 
+   "B:B. protected", 
+   "C:C. default", 
+   "D:D. private"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose classes Lemon and Grapefruit extend class Citrus. Which statements are true regardingthe following code?1. Grapefruit g = new Grapefruit();2. Citrus c = (Citrus)g;3. Lemon lem = (Lemon)c;\"", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:A. The cast in line 2 is not necessary.", 
+   "B:B. Line 3 causes a compiler error.", 
+   "C:C. The code compiles, and throws an exception at line 3.", 
+   "D:D. The code compiles and runs without throwing any exceptions."
+  ]
+ }, 
+ {
+  "A_CONTENT": "android 数据存储与访问的方式一下说法正确的是", 
+  "B_ANSWER": "A,B,C,D,E", 
+  "C_OPTIONS": [
+   "A:A、文件  ", 
+   "B:B、数据库  ", 
+   "C:C、sharedpreference  ", 
+   "D:D、内容提供者  ", 
+   "E:E、网络"
+  ]
+ }, 
+ {
+  "A_CONTENT": "栈和队列都是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A．限制存取位置的线性结构", 
+   "B:B．顺序存储的线性结构", 
+   "C:C．链式存储的线性结构", 
+   "D:D．限制存取位置的非线性结构"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列代码的执行结果是：\n  public class Test3{\t \n  public static void main(String args[]){\n  System.out.print(100%3);\n  System.out.print(\",\");\n  System.out.println(100%3.0);\t  \n}\t\n}", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、1,1", 
+   "B:B、1,1.0", 
+   "C:C、1.0,1", 
+   "D:D、1.0,1.0"
+  ]
+ }, 
+ {
+  "A_CONTENT": "读取文件内容的首要方法是", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A,openFileOutput   ", 
+   "B:B,read    ", 
+   "C:C,write    ", 
+   "D:D,openFileInput"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列哪些语句关于内存回收的说明是正确的?", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:  A、 程序员必须创建一个线程来释放内存", 
+   "B:  B、 内存回收程序负责释放无用内存 ", 
+   "C:  C、 内存回收程序允许程序员直接释放内存 ", 
+   "D:  D、 内存回收程序可以在指定的时间释放内存对象"
+  ]
+ }, 
+ {
+  "A_CONTENT": "时序图的用途包括", 
+  "B_ANSWER": "A,B,C,D", 
+  "C_OPTIONS": [
+   "A:A、显示并发进程和激活", 
+   "B:B、当不同的类之间存在多个简短的方法时，描述控制流的整体序列", 
+   "C:C、显示在协作图中难于描述的事件序列", 
+   "D:D、显示涉及类交互而与对象无关的一般形式", 
+   "E:E、详细描述系统的瞬态图"
+  ]
+ }, 
+ {
+  "A_CONTENT": "DDMS中Log信息分为几个级别", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A,3         ", 
+   "B:B,4        ", 
+   "C:C,5          ", 
+   "D:D,6"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在具有n个结点的有序单链表中插入一个新结点并使链表仍然有序的时间复杂度是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A.O(1)                            ", 
+   "B:B.O(n)", 
+   "C:C.O(nlogn)                        ", 
+   "D:D.O(n2)"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在UML的状态图中，转换通常由以下哪些部分构成", 
+  "B_ANSWER": "A,B,C,D,E", 
+  "C_OPTIONS": [
+   "A:A、动作", 
+   "B:B、触发事件", 
+   "C:C、源状态", 
+   "D:D、目标状态", 
+   "E:E、监护条件"
+  ]
+ }, 
+ {
+  "A_CONTENT": "根据数据元素的关键字直接计算出该元素存储地址的存储方法是", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A．顺序存储方法", 
+   "B:B．链式存储方法", 
+   "C:C．索引存储方法", 
+   "D:D．散列存储方法"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在手机开发中常用的数据库是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A,sqlLite   ", 
+   "B:B,Oracle    ", 
+   "C:C,Sql Server    ", 
+   "D:D,Db23"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于评审，以下说法正确的是：", 
+  "B_ANSWER": "A,B,C,D", 
+  "C_OPTIONS": [
+   "A:A、在软件开发完毕后进行评审", 
+   "B:B、评审的目标是发现任何形式表现的软件功能、逻辑或实现方面的错误", 
+   "C:C、评审的目标，是为了发现问题，而不是解决问题", 
+   "D:D、评审是为了保证软件按预先定义的标准执行"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose class Lemon extends class Citrus. Given the following code:Lemon lem = new Lemon();Citrus cit = new Citrus();Which lines compile without error? (Choose all that apply.)\"", 
+  "B_ANSWER": "B,C,D", 
+  "C_OPTIONS": [
+   "A:A. lem = cit;", 
+   "B:B. cit = lem;", 
+   "C:C. lem = (Lemon)cit;", 
+   "D:D. cit = (Citrus)lem;", 
+   "E:E. cit = (Object)lem;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following class:class Xyzzy {int a, b;public boolean equals(Object x) {Xyzzy that = (Xyzzy)x;return this.a == that.a;}Which methods below honor the hash code contract?\"", 
+  "B_ANSWER": "A,E", 
+  "C_OPTIONS": [
+   "A:A. public int hashCode() { return a; }", 
+   "B:B. public int hashCode() { return b; }", 
+   "C:\"C. public int hashCode() {return a+b;}\"", 
+   "D:\"D. public int hashCode() {return a*b;}\"", 
+   "E:\"E. public int hashCode() {return (int)Math.random();}\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"下面程序段的时间复杂度是for(i=0;i<n;i++)     for(j=1;j<m;j++)       A[i][j]=0；\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A.O(n)", 
+   "B:B.O(m+n+1)", 
+   "C:C.O(m+n)", 
+   "D:D.O(m*n)"
+  ]
+ }, 
+ {
+  "A_CONTENT": "创建子菜单的方法是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A,add", 
+   "B:B,addSubMenu", 
+   "C:C,createSubMenu", 
+   "D:D,createMenu"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列哪个是合法的Java标识符", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:A. Tree&Glasses ", 
+   "B:B. FirstJavaApplet ", 
+   "C:C. _$theLastOne ", 
+   "D:D. 273.5"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following code:1. class Xyz {2. float f;3. Xyz() {4. ??? // What goes here?5. }6. Xyz(float f) {7. this.f = f;8. }9. }What code at line 4 results in a class that compiles?\"", 
+  "B_ANSWER": "A,B", 
+  "C_OPTIONS": [
+   "A:A. super();", 
+   "B:B. this(1.23f);", 
+   "C:C. this(1.23f); super();", 
+   "D:D. super(1.23f); this(1.23f);"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given a class with a public variabletheTintof typeColor, which of the following methods areconsistent with the JavaBeans naming standards?\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A. public Color getColor()", 
+   "B:B. public Color getTint()", 
+   "C:C. public Color getTheTint()", 
+   "D:D. public Color gettheTint()", 
+   "E:E. public Color get_theTint()"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following classes:public class Wrapper {public int x;}public class Tester {private static void bump(int n, Wrapper w) {n++;w.x++;}public static void main(String[] args) {int n = 10;Wrapper w = new Wrapper();w.x = 10;bump(n, w);// Now what are n and w.x?}}When the application runs, what are the values of n and w.x after the call to bump() in themain() method?\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A. n is 10, w.x is 10", 
+   "B:B. n is 11, w.x is 10", 
+   "C:C. n is 10, w.x is 11", 
+   "D:D. n is 11, w.x is 11"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在 android 中使用 Menu 时可能需要重写的方法有", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:A、onCreateOptionsMenu()", 
+   "B:B、onCreateMenu()", 
+   "C:C、onOptionsItemSelected()", 
+   "D:D、onItemSelected()"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose threads aThread and bThread are both accessing a shared object named sharedOb,and aThread has just executed:sharedOb.wait();What code can bThread execute in order to get aThread out of the waiting state, no matter whatother conditions prevail?\"", 
+  "B_ANSWER": "C,E", 
+  "C_OPTIONS": [
+   "A:A. aThread.notify();", 
+   "B:B. aThread.notifyAll();", 
+   "C:C. aThread.interrupt();", 
+   "D:D. sharedOb.notify();", 
+   "E:E. sharedOb.notifyAll();"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Math.round(11.5)等于多少(). Math.round(-11.5)等于多少(). ", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、11 ,-11   ", 
+   "B:B、11 ,-12   ", 
+   "C:C、12 ,-11   ", 
+   "D:D、12 ,-12"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose MyThread extends java.lang.Thread, and MyRunnable implements java.lang.Runnable (but does not extend Thread). Both classes have no-args constructors. Which of thefollowing cause a thread in the JVM to begin execution? (Choose all correct options.)\"", 
+  "B_ANSWER": "A,D", 
+  "C_OPTIONS": [
+   "A:A. (new MyThread()).start();", 
+   "B:B. (new MyThread()).run();", 
+   "C:C. (new MyRunnable()).run();", 
+   "D:D. (new Thread(new MyRunnable()))", 
+   "E:E. .start();"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"How do you generate a string representing the value of a float f in a format appropriate fora locale loc?\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:\"A. NumberFormat nf =NumberFormat.getInstance(loc);String s = nf.format(f);\"", 
+   "B:\"B. NumberFormat nf =new NumberFormat(loc);String s = nf.format(f);\"", 
+   "C:\"C. NumberFormat nf =NumberFormat.getInstance();String s = nf.format(f, loc);\"", 
+   "D:\"D. NumberFormat nf =new NumberFormat(loc);String s = nf.format(f, loc);\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose you know that a file named aaa was created by a Java program that used aDataOutputStream. The file contains 10 doubles, followed by a UTF string. Whichof the following code snippets read the string correctly? Assume all code exists in anenvironment that legally handles IOException. (Choose all correct options.)\"", 
+  "B_ANSWER": "A,B,D", 
+  "C_OPTIONS": [
+   "A:\"A. RandomAccessFile raf =new RandomAccessFile(\"\"\"aaa\"\"\", \"\"\"r\"\"\");for (int i=0; i<10; i++)raf.readDouble();String s = raf.readUTF();\"", 
+   "B:\"B. RandomAccessFile raf =new RandomAccessFile(\"\"\"aaa\"\"\", \"\"\"r\"\"\");raf.seek(10*8);String s = raf.readUTF();\"", 
+   "C:\"C. FileReader fr = new FileReader(fr);for (int i=0; i<10*8; i++)fr.read();String s = fr.readUTF();\"", 
+   "D:\"D. FileInputStream fis = new FileInputStream(“aaa”);DataInputStream dis = new DataInputStream(fis);for (int i=0; i<10; i++)dis.readDouble();\"", 
+   "E:\"E. FileInputStream fis = new FileInputStream(“aaa”);DataInputStream dis = new DataInputStream(fis);dis.seek(10*8);String s = dis.readUTF();String s = dis.readUTF();\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"对一些资源以及状态的操作保存,最好是保存在生命周期的哪个函数中进行\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、onPause() ", 
+   "B:B、onCreate() ", 
+   "C:C、 onResume() ", 
+   "D:D、onStart()"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列关于如何使用Notification，不对的是", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A,notification需要NotificatinManager来管理 ", 
+   "B:B,使用NotificationManager的notify方法显示notification消息", 
+   "C:C,在显示Notification时可以设置通知时的默认发声，震动等", 
+   "D:D,Notification中有方法可以清除消息"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Intent 传递数据时,下列的数据类型哪些可以被传递(多选)", 
+  "B_ANSWER": "A,B,C,D", 
+  "C_OPTIONS": [
+   "A:A、Serializable ", 
+   "B:B、charsequence ", 
+   "C:C、Parcelable ", 
+   "D:D、Bundle"
+  ]
+ }, 
+ {
+  "A_CONTENT": "拖动条组件是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A,RatingBar     ", 
+   "B:B,ProgressBar      ", 
+   "C:C,SeekBar      ", 
+   "D:D,ScrollBar"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于 ContenValues 类说法正确的是", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:\"A、他和 Hashtable 比较类似,也是负责存储一些名值对,但是他存储的名值对当中的名是 String 类型,而值都是基本类型\"", 
+   "B:\"B、他和 Hashtable 比较类似,也是负责存储一些名值对,但是他存储的名值对当中的名是任意类型,而值都是基本类型\"", 
+   "C:\"C、他和 Hashtable 比较类似,也是负责存储一些名值对,但是他存储的名值对当中的名,可以为空,而值都是 String 类型\"", 
+   "D:\"D、他和 Hashtable 比较类似,也是负责存储一些名值对,但是他存储的名值对当中的名是 String 类型,而值也是 String 类型\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "What relationship does the extends keyword represent?", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A. “is a”", 
+   "B:B. “has a”", 
+   "C:C. Polymorphism", 
+   "D:D. Multivariance", 
+   "E:E. Overloading"
+  ]
+ }, 
+ {
+  "A_CONTENT": "自定义对话框时，将视图对象添加到当前对话框的方法是", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A,setIcon     ", 
+   "B:B,setXML    ", 
+   "C:C,setLayout    ", 
+   "D:D,setView"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"While testing some code that you are developing, you notice that an ArrayIndexOutOf-BoundsException is thrown. What is the appropriate reaction?\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:\"A. Enclose the offending code in a try block, with a catch block forArrayIndexOutOfBoundsException that does nothing.\"", 
+   "B:\"B. Enclose the offending code in a try block, with a catch block forArrayIndexOutOfBoundsException that prints out a descriptive message.\"", 
+   "C:\"C. Declare that the method that contains the offending code throwsArrayIndexOutOfBoundsException.\"", 
+   "D:D. None of the above."
+  ]
+ }, 
+ {
+  "A_CONTENT": "多选框被选择事件通常用", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A,setOnClickListener  ", 
+   "B:B,setOnCheckChangeListener  ", 
+   "C:C, setOnMenuItemSelectedListener        ", 
+   "D:D,setOnCheckedListener"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面哪些图形可以清楚地表达并发行为", 
+  "B_ANSWER": "C,D", 
+  "C_OPTIONS": [
+   "A:A、类图", 
+   "B:B、状态体", 
+   "C:C、活动图", 
+   "D:D、顺序图", 
+   "E:E、实现图"
+  ]
+ }, 
+ {
+  "A_CONTENT": "UML中，类的主要版型有", 
+  "B_ANSWER": "C,D,E", 
+  "C_OPTIONS": [
+   "A:A、角色类", 
+   "B:B、业务类", 
+   "C:C、边界类", 
+   "D:D、控制类", 
+   "E:E、实体类"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Which are appropriate uses of assertions?", 
+  "B_ANSWER": "A,B,D", 
+  "C_OPTIONS": [
+   "A:A. Checking preconditions in a private method", 
+   "B:B. Checking postconditions in a private method", 
+   "C:C. Checking preconditions in a public method", 
+   "D:D. Checking postconditions in a public method"
+  ]
+ }, 
+ {
+  "A_CONTENT": "When should objects stored in a Set implement the java.util.Comparable interface?", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A. Always", 
+   "B:B. When the Set is generic", 
+   "C:C. When the Set is a HashSet", 
+   "D:D. When the Set is a TreeSet", 
+   "E:E. Never"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列哪个是AbsoluteLayout中特有的属性", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A,android:layout_height ", 
+   "B:B,android:layout_x  ", 
+   "C:C,android:layout_above", 
+   "D:D,android:layout_toRightOf"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose you want to use a DateFormat to format an instance of Date. What factors influencethe string returned by DateFormat’s format() method?\"", 
+  "B_ANSWER": "C,D", 
+  "C_OPTIONS": [
+   "A:A. The operating system", 
+   "B:B. The style, which is one of SHORT, MEDIUM, or LONG", 
+   "C:C. The style, which is one of SHORT, MEDIUM, LONG, or FULL", 
+   "D:D. The locale"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于 res/raw 目录说法正确的是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A、这里的文件是原封不动的存储到设备上不会转换为二进制的格式", 
+   "B:B、 这里的文件是原封不动的存储到设备上会转换为二进制的格式", 
+   "C:C、 这里的文件最终以二进制的格式存储到指定的包中", 
+   "D:D、 这里的文件最终不会以二进制的格式存储到指定的包中"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"EOFException and ObjectStreamException both extend IOException. NotSerializable-Exception extends ObjectStreamException. AWTException does not extend any of these. Allare checked exceptions. Suppose class AClass has a method callMe() whose declaration isvoid callMe() throws ObjectStreamExceptionWhich of the following may appear in a subclass of AClass?\"", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:A. void callMe()", 
+   "B:B. void callMe() throws IOException", 
+   "C:\"C. void callMe()throws NotSerializableException\"", 
+   "D:\"D. void callMe()throws ObjectStreamException,AWTException\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose you want to run the following command line on a Windows system:java -classpath somewhere;elsewhere aaa.bbb.MyApplicationOn a Unix system the command line would be:java -classpath somewhere:elsewhere aaa.bbb.MyApplicationAssume the CLASSPATH variable is not set. Which must be true in order for the application to run?\"", 
+  "B_ANSWER": "A,D", 
+  "C_OPTIONS": [
+   "A:A. Class MyApplication must contain the statement package aaa.bbb;.", 
+   "B:\"B. Class MyApplication must be in a directory named aaa and must contain the statementpackage bbb;.\"", 
+   "C:\"C. Class MyApplication must contain either the statement package somewhere.aaa.bbb; orthe statement package elsewhere.aaa.bbb;.\"", 
+   "D:\"D. The file MyApplication.class must be found either in somewhere\\aaa\\bbb or inelsewhere\\aaa\\bbb. (Substitute forward slashes for backslashes on a Unix system.)\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列属于 SAX 解析 xml 文件的优点的是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、将整个文档树在内存中,便亍操作,支持删除,修改,重新排列等多种功能", 
+   "B:B、丌用事先调入整个文档,占用资源少", 
+   "C:C、整个文档调入内存,浪费时间和空间", 
+   "D:D、不是长久驻留在内存,数据不是持久的,事件过后,若没有保存数据,数据就会消失"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose shorty is a short and wrapped is a Short. Which of the following are legal Java statements?(Choose all correct options.)\"", 
+  "B_ANSWER": "A,B,C,D", 
+  "C_OPTIONS": [
+   "A:A. shorty = wrapped;", 
+   "B:B. wrapped = shorty;", 
+   "C:C. shorty = new Short((short)9);", 
+   "D:D. shorty = 9;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "使用AIDL完成远程service方法调用下列说法不正确的是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A, aidl对应的接口名称不能与aidl文件名相同", 
+   "B:B, aidl的文件的内容类似java代码", 
+   "C:C, 创建一个Service（服务），在服务的onBind(Intent intent)方法中返回实现了aidl接口的对象", 
+   "D:D, aidl对应的接口的方法前面能加访问权限修饰符"
+  ]
+ }, 
+ {
+  "A_CONTENT": "如果将一个TextView的android:layout_height属性值设置为wrap_content，那么该组件将是以下哪种显示效果？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、该文本域的宽度将填充父容器宽度", 
+   "B:B、该文本域的宽度仅占据该组件的实际宽度", 
+   "C:C、该文本域的高度将填充父容器高度", 
+   "D:D、该文本域的高度仅占据该组件的实际高度"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose class Car has public variables forceOnGasPedal and forceOnBrakePedal, and apublic method respondToPedalChanges(). Class Driver manipulates an instance of Car bychanging the variables and then calling the method. Which statements are true? (Choose allthat apply.)\"", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:A. The Car and Driver classes are loosely coupled.", 
+   "B:B. The Car and Driver classes are tightly coupled.", 
+   "C:C. This degree of coupling is desirable.", 
+   "D:D. This degree of coupling is undesirable."
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面在 AndroidManifest.xml 文件中注册 BroadcastReceiver 方式正确的", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A、＜receiver android:name=\"NewBroad\"＞\n＜intent-filter＞\n＜action\nandroid:name=\"android\n.provider.action.NewBroad\"/＞\n＜action＞\n＜/intent-filter＞\n＜/receiver＞", 
+   "B:B、＜receiver android:name=\"NewBroad\"＞\n＜intent-filter＞\nandroid:name=\"android\n.provider.action.NewBroad\"/＞\n＜/intent-filter＞\n＜/receiver＞", 
+   "C:C、＜receiver android:name=\"NewBroad\"＞\n＜action\nandroid:name=\"android.p\nrovider.action.NewBroad\"/＞\n＜action＞\n＜/receiver＞", 
+   "D:D、＜intent-filter＞\n＜receiver android:name=\"NewBroad\"＞\n＜action＞\nandroid:name=\"android\n.provider.action.NewBroad\"/＞\n＜action＞\n＜/receiver＞\n＜/intent-filter＞"
+  ]
+ }, 
+ {
+  "A_CONTENT": "进度条中哪个属性是设置进度条大小格式的", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A,android:secondaryProgress   ", 
+   "B:B,android:progress   ", 
+   "C:C,android:max     ", 
+   "D:D,style"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于BroadcastReceiver的说法正确的是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A, 是用来接收广播Intent的", 
+   "B:B,一个广播Intent只能被一个订阅了此广播的BroadcastReceiver所接收", 
+   "C:C, 对有序广播，系统会根据接收者声明的优先级别按顺序逐个执行接收者", 
+   "D:D, 接收者声明的优先级别在<intent-filter>的android:priority属性中声明，数值越大优先级别越高"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following:public class Food { }public class Fruit extends Food { }public class Citrus extends Fruit { }public class Pomelo extends Citrus { }public class SuperDuper {public Fruit feedMe() { return new Fruit(); }}public class Subby extends SuperDuper {public ????? feedMe() { return new Pomelo (); }}Which of the following are legal return types forfeedMe()in classSubby?\"", 
+  "B_ANSWER": "C,D,E", 
+  "C_OPTIONS": [
+   "A:A. Object", 
+   "B:B. Food", 
+   "C:C. Fruit", 
+   "D:D. Citrus", 
+   "E:E. Pomelo"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following:package pack;class Sploo {public int a;public static int b;int c;static int d;public void eee() { }public static void fff() { }}Which of the following features of classSploomay be accessed by a class, in packagepack, asa result of the following import?import static pack.Sploo.*;\"", 
+  "B_ANSWER": "B,D,F", 
+  "C_OPTIONS": [
+   "A:A. a", 
+   "B:B. b", 
+   "C:C. c", 
+   "D:D. d", 
+   "E:E. eee()", 
+   "F:F. fff()"
+  ]
+ }, 
+ {
+  "A_CONTENT": "UML的类图包含哪些抽象的层次", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:A、概念层", 
+   "B:B、说明层", 
+   "C:C、实现层", 
+   "D:D、业务层", 
+   "E:E、控制层"
+  ]
+ }, 
+ {
+  "A_CONTENT": "引起循环队列队头位置发生变化的操作是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A. 出队                    ", 
+   "B:B. 入队", 
+   "C:C. 取队头元素               ", 
+   "D: D. 取队尾元素"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面的对自定 style 的方式正确的是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A、 ＜resources＞\n＜style name=\"myStyle\"＞\n＜item", 
+   "B:B、 ＜style name=\"myStyle\"＞\n＜item\nname=\"android:layout_width\"＞fill_parent＜/item＞(没有\n＜resources＞)\n＜/style＞", 
+   "C:C、 ＜resources＞\n＜item\nname=\"android:layout_width\"＞fill_parent＜/item＞(没有\n＜/style＞)\n＜/resources＞", 
+   "D:D、 ＜resources＞\n＜style name=\"android:layout_width\"＞fill_parent＜/style＞\n(＜/style＞应为＜/item＞)\n＜/resources＞"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面是属于 GLSurFaceView 特性的是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A、管理一个 surface,这个 surface 就是一块特殊的内存,能直接排版到 android 的视图view 。", 
+   "B:B、管理一个 EGL display,它能让 opengl 把内容渲染到上述的surface 上。", 
+   "C:C、让渲染器在独立的线程里运作,和 UI 线程分离。", 
+   "D:D、可以直接从内存或者 DMA 等硬件接口取得图像数据"
+  ]
+ }, 
+ {
+  "A_CONTENT": "How is IllegalArgumentException used? (Choose all correct options.)", 
+  "B_ANSWER": "C,D", 
+  "C_OPTIONS": [
+   "A:A. It is thrown by the JVM when a method is called with incompatible argument types.", 
+   "B:B. It is thrown by the JVM to indicate arithmetic overflow.", 
+   "C:\"C. It is thrown by certain methods of certain core Java classes to indicate that preconditionshave been violated.\"", 
+   "D:\"D. It should be used by programmers to indicate that preconditions of public methods havebeen violated.\"", 
+   "E:\"E. It should be used by programmers to indicate that preconditions of nonpublic methods havebeen violated.\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "二叉树是非线性数据结构，所以", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A. 它不能用顺序存储结构存储; ", 
+   "B:B. 它不能用链式存储结构存储; ", 
+   "C:C. 顺序存储结构和链式存储结构都能存储; ", 
+   "D:D. 顺序存储结构和链式存储结构都不能使用"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在结构化方法中，软件功能分解属于软件开发中的( )阶段的任务", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、详细设计 ", 
+   "B:B、需求分析 ", 
+   "C:C、概要设计 ", 
+   "D:D、编程调试"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列哪些语句关于内存回收的说明是正确的?", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、 程序员必项创建一个线程来释放内存", 
+   "B:B、 内存回收程序负责释放无用内存", 
+   "C:C、 内存回收程序允讲程序员直接释放内存", 
+   "D:D、 内存回收程序可以在指定的时间释放内存对象"
+  ]
+ }, 
+ {
+  "A_CONTENT": "算法的空间复杂度是指？", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A、算法在执行过程中所需要的计算机存储空间", 
+   "B:B、算法所处理的数据量", 
+   "C:C、算法程序中的语句或指令数", 
+   "D:D、算法在执行过程中所需要的临时工作单元数"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在类图中，哪种关系表达总体与局部的关系", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、泛化", 
+   "B:B、实现", 
+   "C:C、依赖", 
+   "D:D、聚合"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在android程序中，Log.w()用于输出什么级别的日志信息？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、调试       ", 
+   "B:B、信息", 
+   "C:C、警告   ", 
+   "D:D、错误"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"下列程序段的输出结果是：void complicatedexpression_r(){     int x=20, y=30;     boolean b;     b=x>50&&y>60||x>50&&y<-60||x<-50&&y>60||x<-50&&y<-60;     System.out.println(b);     }\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、true  ", 
+   "B:B、false  ", 
+   "C:C、1  ", 
+   "D:D、0"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关键路径是AOE网络中", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A、从源点到终点的最长路径", 
+   "B:B、最短的回路", 
+   "C:C、从源点到汇点的最短路径", 
+   "D:D、最长的回路"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列不属于service生命周期的方法是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A,onCreate    ", 
+   "B:B,onDestroy   ", 
+   "C:C,onStop    ", 
+   "D:D,onStart"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面异常是属于 Runtime Exception 的是", 
+  "B_ANSWER": "A,B,C,D", 
+  "C_OPTIONS": [
+   "A:A、ArithmeticException存", 
+   "B:B、IllegalArgumentException", 
+   "C:C、NullPointerException", 
+   "D:D、BufferUnderflowException"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"我们都知道 Hanlder 是线程与 Activity 通信的桥梁,如果线程处理不当,你的机器就会变得越慢,那么线程销毁的方法是\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A、onDestroy()", 
+   "B:B、onClear()", 
+   "C:C、onFinish()", 
+   "D:D、onStop()"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"软件设计中，设计复审是和设计本身一样重要的环节，其主要目的和作用是 ______。\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A、避免后期付出更高代价", 
+   "B:B、减少测试工作量", 
+   "C:C、保证软件质量", 
+   "D:D、缩短软件开发周期"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"The declaration of the java.util.Collection interface isinterface Collection <E>The addAll() method of that interface takes a single argument, which is a reference to acollection whose elements are compatible with E. What is the declaration of the addAll()method?\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A. public boolean addAll(Collection c)", 
+   "B:\"B. public booleanaddAll(Collection c extends E)\"", 
+   "C:\"C. public booleanaddAll(Collection ? extends E)\"", 
+   "D:\"D. public booleanaddAll(Collection<? extends E> c)\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"When does the string created on line 2 become eligible for garbage collection?1. String s = “aaa”;2. String t = new String(s);3. t += “zzz”;4. t = t.substring(0);5. t = null;\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A. After line 3", 
+   "B:B. After line 4", 
+   "C:C. After line 5", 
+   "D:D. The string created on line 2 does not become eligible for garbage collection in this code"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"What will be the outcome when the following application is executed?public class ThreadTest {public void newThread() {Thread t = new Thread() {public void run() {System.out.println(\"\"\"Going to sleep\"\"\");try {sleep(5000);} catch (InterruptedException e) {}System.out.println(\"\"\"Waking up\"\"\");}};t.start();try {t.join();} catch (InterruptedException e) {}System.out.println(\"\"\"All done\"\"\");}public static void main(String [] args) {new ThreadTest().newThread();}}\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A. The code prints “Going to sleep,” then “Waking up,” and then “All done.”", 
+   "B:B. The code prints “All done,” then “Going to sleep,” and then “Waking up.”", 
+   "C:C. The code prints “All done” only.", 
+   "D:D. The code prints “Going to sleep” and then “Waking up.”", 
+   "E:E. The code does not compile."
+  ]
+ }, 
+ {
+  "A_CONTENT": "3、概要设计是软件工程中很重要的技术活动，下列不是概要设计任务的是( )", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、设计软件系统结构", 
+   "B:B、编写测试报告", 
+   "C:C、数据结构和数据库设计 ", 
+   "D:D、编写概要设计文档 ", 
+   "E:E、评审"
+  ]
+ }, 
+ {
+  "A_CONTENT": "无向图中一个顶点的度是指图中", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A.通过该顶点的简单路径数", 
+   "B:B.与该顶点相邻接的顶点数", 
+   "C:C.通过该顶点的回路数", 
+   "D:D.与该顶点连通的顶点数"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"在 SQL Server 2005 中运行如下 T-SQL 语句,假定 SALES 表中有多行数据,执行查询之 后的结果是BEGIN TRANSACTION AUpdateSALES Set qty=30WHEREqty<30BEGIN TRANSACTION BUpdate SALES Set qty=40 WHERE qty<40Update SALES Set qty=50 WHERE qty<50Update SALES Set qty=60 WHERE qty<60COMMITTRANSACTION BCOMMIT TRANSACTIONA\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、SALES 表中 qty 列最小值大亍等亍 30", 
+   "B:B、SALES 表中 qty 列最小值大亍等亍 40", 
+   "C:C、SALES 表中 qty 列的数据全部为 50", 
+   "D:D、SALES 表中 qty 列最小值大亍等亍 60"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在多个应用中读取共享存储数据时，需要用到的query方法，是哪个对象的方法", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A, ContentResolver", 
+   "B:B, ContentProvider", 
+   "C:C, Cursor     ", 
+   "D:D,  SQLiteHelper"
+  ]
+ }, 
+ {
+  "A_CONTENT": "android中文件操作模式中表示只能被本应用使用，写入文件会覆盖的是", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A, MODE_APPEND", 
+   "B:C,MODE_WORLD_WRITEABLE", 
+   "C:D, MODE_PRIVATE"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Math.round(11.5)等于多少().Math.round(-11.5)等于多少\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、11 ,-11   ", 
+   "B:B、11 ,-12", 
+   "C:C、12 ,-11", 
+   "D:D、12 ,-12"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Which of the following statements are true regarding the following method?void callMe(String… names) { }\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A. It doesn’t compile.", 
+   "B:\"B. Within the method,namesis an array containingStrings.\"", 
+   "C:\"C. Within the method,namesis a list containingStrings.\"", 
+   "D:D. The method may be called only from within the enclosing class."
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列可能会导致GC内存泄露的是", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:A.数据库的cursor没有关闭   ", 
+   "B:B.构造adapter时,没有使用缓存contentview", 
+   "C:C.衍生listview的优化问题-----减少创建view的对象,充分使用contentview,可以使用一静态类来优化处理getview的过程activity一般会重载一些方法用来维护其生命周期，下列不输于相关方法的是    ", 
+   "D: D.使用sqlite数据库"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"下列程序段的输出结果是:void complicatedexpression_r(){intx=20,booleany=30;b;b=x>50&&y>60||x>50&&y<-60||x<-50&&y>60||x<-50&&y<-60;System.out.println(b);}\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、true", 
+   "B:B、false", 
+   "C:C、1", 
+   "D:D、011.activity"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"内聚是从功能角度来度量模块内的联系，按照特定次序执行元素的模块属于( )方式\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、逻辑内聚 ", 
+   "B:B、时间内聚 ", 
+   "C:C、过程内聚 ", 
+   "D:D、顺序内聚"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Give the following declarations:Vector plainVec;Vector<String> fancyVec;If you want a vector in which you know you will only store strings, what are the advantages ofusing fancyVec rather than plainVec?\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A. Attempting to add anything other than a string to fancyVec results in a compiler error.", 
+   "B:\"B. Attempting to add anything other than a string to fancyVec causes a runtime exception tobe thrown.\"", 
+   "C:\"C. Attempting to add anything other than a string to fancyVec causes a checked exception tobe thrown.\"", 
+   "D:D. Adding a string to fancyVec takes less time than adding one to plainVec.", 
+   "E:E. The methods of fancyVec are synchronized."
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Which lines check that x is equal to four? Assume assertions are enabled at compile time andruntime.\"", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:A. assert x == 4;", 
+   "B:B. assert x != 4;", 
+   "C:C. assert x == 4 : “x is not 4”;", 
+   "D:D. assert x != 4 : “x is not 4”;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "给一个TextView设置红色字体，应该使用以下哪种写法？", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A、setTextColor(0xffff0000);", 
+   "B:B、setColor(\"0xffff0000\")", 
+   "C:C、setTextColor(\"0xffff0000\")", 
+   "D:D、setColor(\"red\")"
+  ]
+ }, 
+ {
+  "A_CONTENT": "耦合是软件各个模块间连接的一种度量。一组模块都访问同一数据结构应属于( )方式。", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、内容耦合 ", 
+   "B:B、公共耦合 ", 
+   "C:C、外部耦合 ", 
+   "D:D、控制耦合"
+  ]
+ }, 
+ {
+  "A_CONTENT": "android中下列属于 Intent 的作用的是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、实现应用程序间的数据共享", 
+   "B:B、是一段长的生命周期,没有用户界面的程序,可以保持应用在后台运行,而丌会因为切换页面而消失", 
+   "C:C、可以实现界面间的切换,可以包含劢作和劢作数据,连接四大组件的纽带", 
+   "D:D、处理一个应用程序整体性的工作"
+  ]
+ }, 
+ {
+  "A_CONTENT": "部署图中的节点具有以下哪些方面的内容", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:A、计算能力", 
+   "B:B、基本内存", 
+   "C:C、位置", 
+   "D:D、接口", 
+   "E:E、路径"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\t关于下列程序段的输出结果，说法正确的是：     public class MyClass{     static int i;          public static void main(String argv[]){      System.out.println(i);       }        }", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、有错误，变量i没有初始化。    ", 
+   "B:B、null", 
+   "C:C、1     ", 
+   "D:D、0"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于隐式Intent正确的是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A, android中使用IntentFilter 来寻找与隐式Intent相关的对象", 
+   "B:B,通过组件的名称寻找与intent相关联的对象", 
+   "C:C, 隐式Intent更多用于在应用程序内部传递消息", 
+   "D:D, 一个声明了IntentFilter的组件只能响应隐式Intent请求"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在单链表中，指针p指向元素为x的结点，实现“删除x的后继”的语句是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A.p=p->next;            ", 
+   "B:B.p->next=p->next->next;", 
+   "C:C.p->next=p;            ", 
+   "D:D.p=p->next->next;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"What happens when you try to compile the following code and run the Zebra application?class Animal {float weight;Animal(float weight) {this.weight = weight;}}class Zebra extends Animal {public static void main(String[] args) {Animal a = new Animal(222.2f);Zebra z = new Zebra();}}\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A. Class Animal generates a compiler error.", 
+   "B:B. Class Zebra generates a compiler error.", 
+   "C:C. The code compiles without error. The application throws an exception when the Animal constructor is called.", 
+   "D:D. The code compiles without error. The application throws an exception when the Zebra constructor is called.", 
+   "E:E. The code compiles and runs without error."
+  ]
+ }, 
+ {
+  "A_CONTENT": "可能具有状态机的对象包括", 
+  "B_ANSWER": "A,B,C,D,E", 
+  "C_OPTIONS": [
+   "A:A、类", 
+   "B:B、子系统", 
+   "C:C、用例", 
+   "D:D、接口", 
+   "E:E、协议"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose class aaa.Aaa has a method called callMe(). Suppose class bbb.Bbb, which extendsaaa.AAA, wants to override callMe(). Which access modes for callMe() in aaa.AAA willallow this?\"", 
+  "B_ANSWER": "A,B", 
+  "C_OPTIONS": [
+   "A:A. public", 
+   "B:B. protected", 
+   "C:C. default", 
+   "D:D. private"
+  ]
+ }, 
+ {
+  "A_CONTENT": "多维数组之所以有行优先顺序和列优先顺序两种存储方式是因为", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A．数组的元素处在行和列两个关系中", 
+   "B:B．数组的元素必须从左到右顺序排列", 
+   "C:C．数组的元素之间存在次序关系", 
+   "D:D．数组是多维结构，内存是一维结构"
+  ]
+ }, 
+ {
+  "A_CONTENT": "具有多重属性值的UML图形包括", 
+  "B_ANSWER": "A,E", 
+  "C_OPTIONS": [
+   "A:A、类图", 
+   "B:B、对象图", 
+   "C:C、状态图", 
+   "D:D、活动图", 
+   "E:E、部署图"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在activity中需要找到一个id是bookName的的TextView组件,下面哪种语句写法是正确的？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、TextView tv = this.findViewById(R.id.bookName);", 
+   "B:B、TextView tv = (TextView)this.findViewById(R.id.code);", 
+   "C:C、TextView tv = (TextView)this.findViewById(R.id.bookName);", 
+   "D:D、TextView tv = (TextView)this.findViewById(R.string.bookName);"
+  ]
+ }, 
+ {
+  "A_CONTENT": "使用MediaPlayer播放保存在sdcard上的mp3文件时", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A. Tree&Glasses ", 
+   "B:B. FirstJavaApplet ", 
+   "C:C. _$theLastOne ", 
+   "D:D. 273.5"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列不属于android布局的是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、FrameLayout ", 
+   "B:B、LinearLayout   ", 
+   "C:C、BorderLayout  ", 
+   "D:D、TableLayout ", 
+   "E:E、RelativeLayout"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列对 android NDK 的理解正确的是", 
+  "B_ANSWER": "A,B,C,D", 
+  "C_OPTIONS": [
+   "A:A、 NDK 是一系列工具的集合", 
+   "B:B、 NDK 提供了一仹稳定、功能有限的 API 头文件声明。", 
+   "C:C、 使式“Java+C” 的开发方式终亍转正,成为官方支持的开发方", 
+   "D:D、NDK 将是 Android 平台支持 C 开发的开端"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列说法错误的是", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A,Button是普通按钮组件，除此外还有其他的按钮组件", 
+   "B:B,TextView是显示文本的组件，TextView是EditText的父类", 
+   "C:C,EditText是编辑文本的组件，可以使用EditText输入特定的字符", 
+   "D:D,ImageView是显示图片的组件，可以通过设置显示局部图片"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following code:class Xxx {int[] ages;int[] heights = new int[10];}\"", 
+  "B_ANSWER": "A,E", 
+  "C_OPTIONS": [
+   "A:A. Which statements are true?", 
+   "B:\"B. agesis initialized tonull\"", 
+   "C:\"C. agesis initialized to a reference to an array with zero elements.\"", 
+   "D:\"D. heightsis initialized tonull\"", 
+   "E:\"E. heightsis initialized to a reference to an array with zero elements.\"", 
+   "F:\"F. heightsis initialized to a reference to an array with 10 elements.\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "Android 项目工程下面的 assets 目录的作用是什么", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、放置应用到的图片资源。", 
+   "B:B、主要放置多媒体等数据文件", 
+   "C:C、放置字符串,颜色,数组等常量数据", 
+   "D:D、放置一些不 UI 相应的布局文件,都是 xml 文件"
+  ]
+ }, 
+ {
+  "A_CONTENT": "对于一个Activity，在AndroidManifest.xml中对他这样进行定义      \n＜intent-filter＞\n ＜action android:name=\"android.intent.action.MAIN\" /＞\n ＜category android:name=\"android.intent.category.LAUNCHER\" /＞\n＜/intent-filter＞，这样的描述代表什么含义？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、无明确含义，每个Activity都需要这样定义", 
+   "B:B、代表该Activity将作为程序的主Activity，并且在LAUNCHER菜单中启动", 
+   "C:C、代表该Activity将在桌面上建立图标并启动", 
+   "D:D、代表该Activity的优先级高于其他的Activity"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following class:class A extends java.util.Vector {private A(int x) { super(x); }}Which statements are true?\"", 
+  "B_ANSWER": "E", 
+  "C_OPTIONS": [
+   "A:A. The compiler creates a default constructor with public access.", 
+   "B:B. The compiler creates a default constructor with protected access.", 
+   "C:C. The compiler creates a default constructor with default access.", 
+   "D:D. The compiler creates a default constructor with private access.", 
+   "E:E. The compiler does not create a default constructor."
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"在 android 中使用 SQLiteOpenHelper 这个辅助类时,可以生成一个数据库,并可以对数据库版本进行管理的方法可以是\"", 
+  "B_ANSWER": "A,B", 
+  "C_OPTIONS": [
+   "A:A、getWriteableDatabase()", 
+   "B:B、getReadableDatabase()", 
+   "C:C、getDatabase()", 
+   "D:D、getAbleDatabase()"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于AlertDialog的说法正确的是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A,要想使用对话框首先要使用new关键字创建AlertDialog的实例", 
+   "B:B,对话框的显示需要调用show方法", 
+   "C:C,setPositiveButton方法是用来加确定按钮的", 
+   "D:D,setNegativeButton方法是用来加取消按钮的"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面属于 android 的动画分类的有", 
+  "B_ANSWER": "A,B", 
+  "C_OPTIONS": [
+   "A:A、Tween ", 
+   "B:B、Frame ", 
+   "C:C、Draw ", 
+   "D:D、Animation"
+  ]
+ }, 
+ {
+  "A_CONTENT": "上下文菜单与其他菜单不同的是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A,上下文菜单项上的单击事件可以使用onMenuItemSelected方法来响应", 
+   "B:B,上下文菜单必须注册到指定的view上才能显示", 
+   "C:C,上下文菜单的菜单项可以添加，可以删除", 
+   "D:D,上下文菜单的菜单项可以有子项"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于评审的结论", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:A、评审会议后，记录员要及时整理会议纪要。并要求有关人员给出评审报告。", 
+   "B:B、认真分析评审报告中提出的问题及改进建议，制定纠正措施并负责落实；管理者可对评审实施监督与跟踪管理，并形成记录", 
+   "C:C、对于作者的改进情况，可根据情况，组织复审", 
+   "D:D、代码走查，由于是人工走代码，所以，很难发现有价值的问题"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose class Home has methods chopWood() and carryWater(); it also has a method calledchopWoodAndCarryWater(), which just calls the other two methods. Which statements aretrue? (Choose all that apply.)\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A. chopWoodAndCarryWater() is an example of appropriate cohesion.", 
+   "B:B. chopWoodAndCarryWater() is an example of inappropriate cohesion.", 
+   "C:C. chopWoodAndCarryWater() is an example of appropriate coupling.", 
+   "D:D. chopWoodAndCarryWater() is an example of inappropriate coupling."
+  ]
+ }, 
+ {
+  "A_CONTENT": "软件工程的三要素是", 
+  "B_ANSWER": "A,B,D", 
+  "C_OPTIONS": [
+   "A:A、方法", 
+   "B:B、工具", 
+   "C:C、模型", 
+   "D:D、过程", 
+   "E:E、语言"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在下列排序方法中，平均时间性能为O(nlogn)且空间性能最好的是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A.快速排序", 
+   "B:B.堆排序", 
+   "C:C.归并排序", 
+   "D:D.基数排序"
+  ]
+ }, 
+ {
+  "A_CONTENT": "软件设计模块化的目的是", 
+  "B_ANSWER": "A,B,C,D", 
+  "C_OPTIONS": [
+   "A:A) 提高易读性 ", 
+   "B:B) 降低复杂性 ", 
+   "C:C) 增加内聚性 ", 
+   "D:D) 降低耦合性"
+  ]
+ }, 
+ {
+  "A_CONTENT": "byte的数值范围是?", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:0~32767", 
+   "B:0~65535", 
+   "C:-256~255", 
+   "D:-32768~32767"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose you want to create a class that compiles and can be serialized and deserialized withoutcausing an exception to be thrown. Which statements are true regarding the class? (Choose allcorrect options.)\"", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:\"A. If the class implements java.io.Serializable and does not implementjava.io.Externalizable, it must have a no-args constructor.\"", 
+   "B:B. If the class implements java.io.Externalizable, it must have a no-args constructor.", 
+   "C:\"C. If the class implements java.io.Serializable and does not implementjava.io.Externalizable, its nearest superclass that doesn’t implement Serializablemust have a no-args constructor.\"", 
+   "D:\"D. If the class implements java.io.Externalizable, its nearest superclass that doesn’timplement Externalizable must have a no-args constructor.\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"The java.util.Arrays class has a binarySearch(int[] arr, int key) method. Whichstatements are true regarding this method? (Choose all that apply.)\"", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:A. The method is static.", 
+   "B:B. The return value is the index in the array of key.", 
+   "C:C. The elements of the array must be sorted when the method is called.", 
+   "D:D. After the method returns, the elements of the array are sorted, even if they weren’t sorted before the call."
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面异常是属于Runtime Exception 的是", 
+  "B_ANSWER": "A,B,C,D", 
+  "C_OPTIONS": [
+   "A:     A、ArithmeticException ", 
+   "B:      B、IllegalArgumentException ", 
+   "C:      C、NullPointerException ", 
+   "D:      D、BufferUnderflowException  "
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下程序的运行结果为:\n\t public class IfTest{\n\t public static void main(String args[]){\n\t int x=3;\n\t int y=1;\n\t if(x==y)\n\t System.out.println(\"Not equal\");\n\t else\n\t System.out.println(\"Equal\");\n\t }\n\t }", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、Not equal     ", 
+   "B:B、Equal    ", 
+   "C:C、无输出    ", 
+   "D:D、编译出错"
+  ]
+ }, 
+ {
+  "A_CONTENT": "NotificationManager中清除消息的方法是", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:A,destroy     ", 
+   "B:B,cancel      ", 
+   "C:C,clear      ", 
+   "D:D，cancelAll"
+  ]
+ }, 
+ {
+  "A_CONTENT": "对二叉排序树的结点进行哪种遍历就可以得到排好序的结点序列", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A. 先序遍历", 
+   "B:B. 中序遍历", 
+   "C:C. 后序遍历", 
+   "D:D. 层次遍历"
+  ]
+ }, 
+ {
+  "A_CONTENT": "索引非顺序文件的特点是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A.主文件无序，索引表有序", 
+   "B:B.主文件有序，索引表无序", 
+   "C:C.主文件有序，索引表有序", 
+   "D:D.主文件无序，索引表无序"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"android关于 service 生命周期的 onCreate()和 onStart()说法正确的是\"", 
+  "B_ANSWER": "A,D", 
+  "C_OPTIONS": [
+   "A:A、当第一次吭劢的时候先后调用 onCreate()和 onStart()方法", 
+   "B:B、当第一次吭劢的时候叧会调用 onCreate()方法", 
+   "C:C、如果 service 已经吭劢,将先后调用 onCreate()和 onStart()方法", 
+   "D:D、如果 service 已经吭劢,叧会执行 onStart()方法,丌在执行onCreate()方法"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Intent传递数据时，下列的数据类型哪些可以被传递", 
+  "B_ANSWER": "A,B,C,D", 
+  "C_OPTIONS": [
+   "A:A、Serializable  ", 
+   "B:B、charsequence  ", 
+   "C:C、Parcelable  ", 
+   "D:D、Bundle"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列哪个是SqlLite下的命令", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A,shell    ", 
+   "B:B,push   ", 
+   "C:C,.quit     ", 
+   "D:D,keytool"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following:int[] ages = { 9, 41, 49 };int sum = 0;Which of the following are legal ways to add the elements of the array?\"", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:\"A. for (int i=0; i<ages.length; i++)sum += ages[i];\"", 
+   "B:\"B. for (int i=0; i<=ages.length; i++)sum += ages[i];\"", 
+   "C:\"C.  for (int i:ages)sum += i;\"", 
+   "D:D. sum += ages[int i:ages];"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"ObjectStreamException extends IOException. NotSerializableException extendsObjectStreamException. AWTException does not extend any of these. All are checkedexceptions. The callMe() method throws NotSerializableException.What does thefollowing code print out? Choose all lines that are printed.try {callMe();System.out.println(“I threw”);}catch (ObjectStreamException x) {System.out.println(“Object stream”);}catch (IOException x) {System.out.println(“IO”);}catch (Exception x) {System.out.println(“Exception”);}finally {System.out.println(“Finally”);}\"", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:A. I threw", 
+   "B:B. Object Stream", 
+   "C:C. IO", 
+   "D:D. Exception", 
+   "E:E. Finally"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following class:package ocean;public class Fish {protected int size;protected void swim() { }}Which of the following may appear in a subclass of Fish named Tuna that is not in the oceanpackage?\"", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:A. void swim() { }", 
+   "B:B. public void swim() { }", 
+   "C:C. size = 12;", 
+   "D:D. (new Tuna()).size = 12;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "RatingBar组件中不能用属性直接设置的是", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A,五角星个数 ", 
+   "B:B,当前分数", 
+   "C:C,分数的增量", 
+   "D:D,五角星的色彩"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Java语言中字符串“学Java”所占的内存空间是:", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A. 6个字节      ", 
+   "B:B. 7个字节      ", 
+   "C:C. 10个字节      ", 
+   "D:D. 11个字节 "
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following:public enum Wallpaper {BROWN, BLUE, YELLOW;}Which of the following are legal?\"", 
+  "B_ANSWER": "B,D,E", 
+  "C_OPTIONS": [
+   "A:\"A. enum PatternedWallpaper extends Wallpaper {STRIPES, DOTS, PLAIN;}\"", 
+   "B:\"B. Wallpaper wp = Wallpaper.BLUE;\"", 
+   "C:\"C. Wallpaper wp =new Wallpaper(Wallpaper.BLUE);\"", 
+   "D:\"D. void aMethod(Wallpaper wp) {System.out.println(wp);}\"", 
+   "E:\"E. int hcode =Wallpaper.BLUE.hashCode();\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "适于对动态查找表进行高效率查找的组织结构是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、有序表", 
+   "B:B、分块有序表", 
+   "C:C、二叉排序树", 
+   "D:D、线性链表"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Which of the following types are legal arguments of aswitchstatement?\"", 
+  "B_ANSWER": "A,B", 
+  "C_OPTIONS": [
+   "A:A. enums", 
+   "B:B. bytes", 
+   "C:C. longs", 
+   "D:D. floats", 
+   "E:E. strings"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于评审过程的说法，正确的是：", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、参与评审的人员越多越好。容易得出较全面的意见", 
+   "B:B、评审的结果，可以被用于对作者的评审", 
+   "C:C、必须制定评审的准入条件", 
+   "D:D、评审要把时间，集中在如何解决问题上面"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following class:public class App {public static void main(String[] args) {System.out.println(args.length);}}Assuming App.class is stored in an appropriate location in file appjar.jar, what is printedwhen you type the following command line?java -cp appjar.jar -ea App 1 2 3 4\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A. 4", 
+   "B:B. 5", 
+   "C:C. 6", 
+   "D:D. 7", 
+   "E:E. 8", 
+   "F:F. 9"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Suppose you want to read a file that was not created by a Java program. The file contains linesof 8-bit text, and the 8-bit encoding represents the local character set, as represented by the currentdefault locale. The lines are separated by newline characters. Which strategy reads the fileand produces Java strings?\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A. Create a RandomAccessFile instance and use its readText() method.", 
+   "B:B. Create a RandomAccessFile instance and use its readUTF() method.", 
+   "C:\"C. Create a FileReader instance. Pass it into the constructor of LineNumberReader. UseLineNumberReader’s readLine() method.\"", 
+   "D:\"D. Create a FileInputStream instance. Pass it into the constructor of LineNumberReader.Use LineNumberReader’s readLine() method.\"", 
+   "E:\"E. Create a FileInputStream instance. Pass it into the constructor of DataInputStream. UseDataInputStream’s readLine() method.\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "不定长文件是指？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、文件的长度不固定", 
+   "B:B、记录的长度不固定", 
+   "C:C、字段的长度不固定", 
+   "D:D、关键字项的长度不固定"
+  ]
+ }, 
+ {
+  "A_CONTENT": "严格定义的评审过程，包含如下角色：", 
+  "B_ANSWER": "B,C,D,E,F", 
+  "C_OPTIONS": [
+   "A:A、测试人员", 
+   "B:B、审查组长", 
+   "C:C、审查者", 
+   "D:D、读者", 
+   "E:E、作者", 
+   "F:F、记录员"
+  ]
+ }, 
+ {
+  "A_CONTENT": "已知二叉树的先序序列为ABDECF，中序序列为DBEAFC，则后序序列为", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A.DEBAFC", 
+   "B:B.DEFBCA", 
+   "C:C.DEBCFA", 
+   "D:D.DEBFCA"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面关于 Android dvm 的进程和 Linux 的进程,应用程序的进程说法正确的是", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:\"A、DVM 指 dalivk 的虚拟机.每一个 Android 应用程序都在它自己的迕程中运行,不一定拥有一个独立的 Dalvik 虚拟机实例.而每一个 DVM 都是在 Linux 中的一个迕程,所以说可以认为是同一个概念.\"", 
+   "B:\"B、DVM 指 dalivk 的虚拟机.每一个 Android 应用程序都在它自己的迕程中运行,不一定拥有一个独立的 Dalvik 虚拟机实例.而每一个 DVM 不一定都是在 Linux 中的一个迕程,所以说不是一个概念.\"", 
+   "C:\"C、DVM 指 dalivk 的虚拟机.每一个 Android 应用程序都在它自己的迕程中运行,都拥有一个独立的 Dalvik 虚拟机实例.而每一个 DVM 不一定都是在 Linux 中的一个迕程,所以说不是一个概念.\"", 
+   "D:\"D、DVM 指 dalivk 的虚拟机.每一个 Android 应用程序都在它自己的迕程中运行,都拥有一个独立的Dalvik 虚拟机实例.而每一个 DVM 都是在 Linux 中的一个迕程,所以说可以认为是同一个概念.\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "如果使用LinearLayout实现组件垂直排列，那么在xml中应添加什么属性进行设置？", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A、android:orientation=\"vertical\"", 
+   "B:B、android:vertical=\"true\"", 
+   "C:C、android:orientation=\"horizontal\"", 
+   "D:D、android:horizontal=\"true\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "Which of the following statements are true? (Choose all correct options.)", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:A. StringBuilder encapsulates a mutable string.", 
+   "B:B. StringBuilder is threadsafe.", 
+   "C:C. StringBuffer is threadsafe.", 
+   "D:D. StringBuffer is generally faster than StringBuilder."
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Which line prints double d in a left-justified field that is 20 characters wide, with 15 charactersto the right of the decimal point?\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A. System.out.format(\"%20.5f\", d);", 
+   "B:B. System.out.format(\"%20.15f\", d);", 
+   "C:C. System.out.format(\"%-20.5f\", d);", 
+   "D:D. System.out.format(\"%-20.15f\", d);"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于android中播放视频的说法不对的是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A,可以使用SurfaceView组件播视频   ", 
+   "B:B，可以使用VideoView组件播视频", 
+   "C:C,VideoView组件可以控制播放的位置和大小", 
+   "D:D,VideoView播放视频的格式可以是3gp"
+  ]
+ }, 
+ {
+  "A_CONTENT": "What is -15 % -10?", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A. 0", 
+   "B:B. 5", 
+   "C:C. 10", 
+   "D:D. -5", 
+   "E:E. -10"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following code:1. String scanMe = “aeiou9876543210AEIOU”;2. Scanner scanner = new Scanner(scanMe);3. String delim = ?????; // WHAT GOES HERE?4. scanner.useDelimiter(delim);5. while (scanner.hasNext())6. System.out.println(scanner.next());What code at line 3 produces the following output?aeiouAEIOU\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A. String delim = “d+”;", 
+   "B:B. String delim = “\\d+”;", 
+   "C:C. String delim = “\\\\d+”;", 
+   "D:D. String delim = “d*”;", 
+   "E:E. String delim = “\\d*”;", 
+   "F:F. String delim = “\\\\d*”;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列用以显示一系列图像的是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A,ImageView    ", 
+   "B:B,Gallery    ", 
+   "C:C,ImageSwitcher       ", 
+   "D:D,GridView"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在android应用程序中，图片应放在那个目录下？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、raw     ", 
+   "B:B、values", 
+   "C:C、layout    ", 
+   "D: D、drawable"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面哪些元素构成了组件图形", 
+  "B_ANSWER": "A,C,D", 
+  "C_OPTIONS": [
+   "A:A、组件", 
+   "B:B、转换", 
+   "C:C、关系", 
+   "D:D、接口", 
+   "E:E、事件"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下关于圈复杂度描述，正确的有", 
+  "B_ANSWER": "A,B,D", 
+  "C_OPTIONS": [
+   "A:A、圈复杂度大说明程序代码的判断逻辑复杂，可能质量低且难于测试和维护。", 
+   "B:B、圈复杂度高，是由问题本身复杂度决定的，开发者无法降低圈复杂度。", 
+   "C:C、圈复杂度，可以针对整个类进行计算。", 
+   "D:D、圈复杂度越高，测试所需要覆盖的路径就越高。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following:public abstract class Abby {abstract provideMe();}public class SubAbby extends Abby { }Which statements are true?\"", 
+  "B_ANSWER": "B,C,E", 
+  "C_OPTIONS": [
+   "A:\"A. Abbygenerates a compiler error.\"", 
+   "B:\"B. SubAbbygenerates a compiler error.\"", 
+   "C:\"C. If SubAbbywere declared abstract, it would compile without error.\"", 
+   "D:\"D. IfSubAbbywere declared abstract, it could be instantiated.\"", 
+   "E:\"E. Abbyis a legal type for variables.\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "java.io包中定义了多个流类型来实现输入和输出功能，如果为读取的内容进行处理后再输出，需要使用下列哪种流？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、File stream  ", 
+   "B:B、Pipe stream", 
+   "C:C、Random stream  ", 
+   "D:D、Filter stream"
+  ]
+ }, 
+ {
+  "A_CONTENT": "软件评审的目的是：", 
+  "B_ANSWER": "B,C,D,E,F", 
+  "C_OPTIONS": [
+   "A:A、对员工进行正确评价", 
+   "B:B、提高质量", 
+   "C:C、减少软件开发/维护的时间和费用", 
+   "D:D、提高生产率", 
+   "E:E、提高估算准确率", 
+   "F:F、培训员工"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在androidManifest.xml中描述一个Activity时，该Activity的label属性是指定什么的？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、指定该Activity的图标", 
+   "B:B、指定该Activity的显示标签", 
+   "C:C、指定该Activity和类相关联的类名", 
+   "D:D、指定该Activity的唯一标示"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面退出 Activity 错误的方法是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、finish()", 
+   "B:B、抛异常强制退出", 
+   "C:C、System.exit() System.exit(0) 0 是正常退出，其他数字是表示不正常退出", 
+   "D:D、onStop()"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Given the following class:class Classy {synchronized void notStaticMethod() {for (long n=0; n<100000000000L; n++)System.out.println(n);}synchronized static void staticMethod() {for (long n=0; n<100000000000L; n++)System.out.println(n);}}Suppose thread A and thread B both have references to each of two instances of Classy. Thesereferences are named classy1 and classy2. Which statements are true? (Choose all correctoptions.)\"", 
+  "B_ANSWER": "A,B,D", 
+  "C_OPTIONS": [
+   "A:\"A. If thread A is executing classy1.staticMethod(), then thread B may not executeclassy1.staticMethod().\"", 
+   "B:\"B. If thread A is executing classy1.staticMethod(), then thread B may not executeclassy2.staticMethod().\"", 
+   "C:\"C. If thread A is executing classy1.notStaticMethod(), then thread B may not executeclassy1.staticMethod().\"", 
+   "D:\"D. If thread A is executing classy1.notStaticMethod(), then thread B may not executeclassy1.notStaticMethod().\"", 
+   "E:\"E. If thread A is executing classy1.notStaticMethod(), then thread B may not executeclassy2.notStaticMethod().\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列关于 open core说法不正确的是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A, Open core是Android多媒体框架的核心", 
+   "B:B, MediaPlayer是open Core中的一个核心类", 
+   "C:C, 所有在Android平台的音频、视频的采集以及播放等操作都是通过它来实现的", 
+   "D:D, 在实现开发中我们并不会过多地研究open core的实现，我们的Android为我们提供了上层的media api的开发使用"
+  ]
+ }, 
+ {
+  "A_CONTENT": "正式化程度最高的是？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、小组评审", 
+   "B:B、审查", 
+   "C:C、结对编程", 
+   "D:D、走查"
+  ]
+ }, 
+ {
+  "A_CONTENT": "一棵含18个结点的二叉树的高度至少为", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A.3", 
+   "B:B.4", 
+   "C:C.5", 
+   "D:D.6"
+  ]
+ }, 
+ {
+  "A_CONTENT": "单元测试又称为( )，可以用白盒法测试方法也可以采用黑盒法测试", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、集成测试", 
+   "B:B、模块测试", 
+   "C:C、系统测试", 
+   "D:D、静态测试"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\" 下列语句序列执行后，i的值是：1. int  i = 10;2. do {  i/=2; } while( i-- > 1 );\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A. 1 ", 
+   "B:B. 5 ", 
+   "C:C. 2 ", 
+   "D:D. -1"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在android中使用RadioButton时，要想实现互斥的选择需要用的组件是", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A,ButtonGroup  ", 
+   "B:B, RadioButtons  ", 
+   "C:C,CheckBox  ", 
+   "D:D,RadioGroup"
+  ]
+ }
+]

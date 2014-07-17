@@ -1,0 +1,1810 @@
+[
+ {
+  "A_CONTENT": "以下（）可用于检索session属性userid的值", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:session. getAttribute (“userid”);", 
+   "B:session. setAttribute (“userid”);", 
+   "C:request. getParameter (“userid”);", 
+   "D:request. getAttribute (“userid”);"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列哪种说法是正确的", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:实例方法可直接调用超类的实例方法", 
+   "B:实例方法可直接调用超类的类方法", 
+   "C:实例方法可直接调用其他类的实例方法", 
+   "D:实例方法可直接调用本类的类方法"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码，请问该程序运行的 结果是 什么？class Example {  public static void main(String args[]){    byte x=-64;    byte y=-6;    System.out.println(x/y+\"\"\" \"\"\"+x%y);  }}\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:编译失败。", 
+   "B:运行期异常。", 
+   "C:10.4", 
+   "D:10.-4"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些描述是正确的？", 
+  "B_ANSWER": "A,B", 
+  "C_OPTIONS": [
+   "A:字符型char具有16位宽度。", 
+   "B:Unicode编码字符具有16位宽度。", 
+   "C:Unicode编码字符具有32位宽度。", 
+   "D:UTF编码字符具有24位宽度。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面声明数组的写法正确的有哪些？", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:int  a[ ];", 
+   "B:int[ ]  a;", 
+   "C:int[3][ ]  a;", 
+   "D:int[ ][3] a;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"有如下程序段:int total = 0;for ( int i = 0; i < 4; i++ ){  if ( i == 1) continue;  if ( i == 2) break;                             total += i;}则执行完该程序段后total的值为：\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:0", 
+   "B:1", 
+   "C:3", 
+   "D:6"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列哪些情况可以终止当前线程的运行？", 
+  "B_ANSWER": "A,B,D", 
+  "C_OPTIONS": [
+   "A:抛出一个异常时。", 
+   "B:当该线程调用sleep()方法时。", 
+   "C:当创建一个新线程时。", 
+   "D:当一个优先级高的线程进入就绪状态时"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些是初始化数组的正确语法形式？", 
+  "B_ANSWER": "A,C,D", 
+  "C_OPTIONS": [
+   "A:int[] x={1,2,3};", 
+   "B:int[3] x={1,2,3};", 
+   "C:int[] x={0,0,0};", 
+   "D:char[] x={‘a’,’b’};"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些语句存在语法错误？", 
+  "B_ANSWER": "A,D,E", 
+  "C_OPTIONS": [
+   "A:default String s;", 
+   "B:transient int i=41;", 
+   "C:public final static native int w();", 
+   "D:abstract double d;", 
+   "E:abstract final double hyperbolicCosine ();"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些是正确的Java注释形式？", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:\\\\ This is a comment.", 
+   "B:/*This is a comment.*/", 
+   "C:/**This is a comment.*/", 
+   "D:\\*This is a comment.*\\"
+  ]
+ }, 
+ {
+  "A_CONTENT": "设有以下四种排序方法，则哪个的空间复杂度最大？", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:冒泡排序", 
+   "B:快速排序", 
+   "C:堆排序", 
+   "D:希尔排序"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"执行以下代码后，哪个结论是正确的？String[] s = new String[3];\"", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:s[3] 为 \"\"\";", 
+   "B:s[2] 为 null;", 
+   "C:s[0] 为未定义;", 
+   "D:s.length 为 3;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "设有5000个待排序的记录关键字，如果需要用最快的方法选出其中最小的10个记录关键字，则用下列（  ）方法可以达到此目的。", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:快速排序", 
+   "B:堆排序", 
+   "C:归并排序", 
+   "D:插入排序"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面语句在编译时不会出现警告或错误的是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:float f=3.14;", 
+   "B:char c=”c”;", 
+   "C:Boolean b=null;", 
+   "D:int i=10.0;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列流中哪个不属于字节流", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:FileInputStream", 
+   "B:BufferedInputStream", 
+   "C:FilterInputStream", 
+   "D:InputStreamReader"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些论述是正确的？", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:一个abstract类不能被实例化。", 
+   "B:一个final方法的使用非Java的其他语言实现，代码体位于本地机上。", 
+   "C:一个static变量表明该变量只有一个副本。", 
+   "D:一个ptivate方法表明该方法可以被同一包中的其他类访问。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列说法错误的有", 
+  "B_ANSWER": "A,C,D", 
+  "C_OPTIONS": [
+   "A:在类方法中可用this来调用本类的类方法", 
+   "B:在类方法中调用本类的类方法时可直接调用", 
+   "C:在类方法中只能调用本类中的类方法", 
+   "D:在类方法中绝对不能调用实例方法"
+  ]
+ }, 
+ {
+  "A_CONTENT": "为了提高软件的可维护性，在编码阶段应注意", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:保存测试用例和数据", 
+   "B:提高模块的独立性", 
+   "C:文档的副作用", 
+   "D:养成好的程序设计风格"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Http协议的状态码（）表示文件没有创建", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:200", 
+   "B:400", 
+   "C:500", 
+   "D:404"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面哪一个循环会导致死循环？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:for (int k = 0; k < 0; k++)", 
+   "B:for (int k = 10; k > 0; k--)", 
+   "C:for (int k = 0; k < 10; k--)", 
+   "D:for (int k = 0; k > 0; k++)"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码，请问该程序的运行结果是什么？public class Example{ public static void main (String args [] ) {     String s1 = \"\"\"abc\"\"\";     String s2 = new String(\"\"\"abc\"\"\");       if (s1 == s2)          System.out.println (1);     else          System.out.println (2);     if (s1.equals (s2))          System.out.println (3);     else          System.out.println (4);     }}请选择所有正确答案：\"", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:打印输出 1", 
+   "B:打印输出 2", 
+   "C:打印输出 3", 
+   "D:打印输出 4"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"A派生出子类B，B派生出子类C，并且在Java源代码中有如下声明： 1.    A  a0=new  A();2.    A  a1 =new  B();3.    A  a2=new  C();问以下哪个说法是正确的？\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:只有第1行能通过编译", 
+   "B:第1、2行能通过编译，但第3行编译出错", 
+   "C:第1、2、3行能通过编译，但第2、3行运行时出错", 
+   "D:第1行、第2行和第3行的声明都是正确的"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，while循环结构的条件表达式结果是否必须为布尔型？", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:是", 
+   "B:否"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面的有关声明的哪些叙述是对的：", 
+  "B_ANSWER": "A,D", 
+  "C_OPTIONS": [
+   "A:对原始数据类型例如boolean,byte的变量的声明不会为该变量分配内存空间；", 
+   "B:对原始数据类型例如boolean,byte的变量的声明将为之分配内存空间；", 
+   "C:非原始数据类型例如String,Vector的变量的声明不会为该对象分配内存；", 
+   "D:非原始数据类型例如String,Vector的变量的声明会为该对象分配内存；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "struts框架中，关于FormBean，下列哪些说法是正确的：", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:FormBean是一种数据bean，主要用来封装表单提交上来的数据，并把这些数据传递给Action", 
+   "B:在FormBean中可以对页面上传递来的参数进行一下格式上的验证，这种验证是一种客户端的验证", 
+   "C:用户每次提交表单，都会产生一个新的FormBean实例", 
+   "D:动态FormBean不能进行验证操作"
+  ]
+ }, 
+ {
+  "A_CONTENT": "使用字符串表示系统路径时,以下正确的是？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:\"\"\"\"src\\com\\hoperun\"\"\"\"\"", 
+   "B:\"\"\"\"src/com/hoperun\"\"\"\"\"", 
+   "C:\"\"\"\"src\\\\com\\\\hoperun\"\"\"\"\"", 
+   "D:\"\"\"\"src\"\"\" + File.separator + \"\"\"com\"\"\" + File.separator + \"\"\"hoperun\"\"\"\"\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "\" 关于以下程序段，正确的说法是1．  String  s1=“a”+“b”;2．   String  s2=new  String（s1）；3．    if（s1==s2）4．       System.out.println(“= =  is succeeded”);5．     if (s1.equals(s2))6．        System.out.println(“.equals() is succeeded”);\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:行4与行6都将执行", 
+   "B:行4执行，行6不执行", 
+   "C:行6执行，行4不执行", 
+   "D:行4、行6都不执行"
+  ]
+ }, 
+ {
+  "A_CONTENT": "若在某一个类定义中定义有如下的方法：abstract void performDial( );该方法属于", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:抽象方法", 
+   "B:接口方法", 
+   "C:最终方法", 
+   "D:空方法"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在JAVA中，关于构造方法，下列说法错误的是：", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:构造方法的名称必须与类名相同；", 
+   "B:构造方法可以带参数；", 
+   "C:构造方法不可以重载；", 
+   "D:构造方法绝对不能有返回值；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "JSP EL 表达式：${user.loginName}执行效果等同于", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:＜%=user.getLoginName()%＞", 
+   "B:＜%user.getLoginName();%＞", 
+   "C:＜%=user.loginName%＞", 
+   "D:＜% user.loginName;%＞"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于被私有访问控制符private修饰的成员变量，以下说法正确的是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:可以被三种类所引用：该类自身、与它在同一个包中的其他类、在其他包中的该类的子类", 
+   "B:只能被该类自身所访问和修改", 
+   "C:可以被两种类访问和引用：该类本身、该类的所有子类", 
+   "D:只能被同一个包中的类访问"
+  ]
+ }, 
+ {
+  "A_CONTENT": "一般情况下，源程序的有效注释量必须在多少以上？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:10%", 
+   "B:20%", 
+   "C:30%", 
+   "D:40%"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在jsp中导入自定义标签的方式正确的是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:web.xml文件的<taglib>", 
+   "B:＜%@ taglib uri=\"\"\"  prefix=\"\"\"%＞", 
+   "C:＜ jsp:taglib uri=\"\"\"  prefix=\"\"\"%＞", 
+   "D:无需导入，可直接使用"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Java中，如果类C是类B的子类，类B是类A的子类，那么下面描述正确的是：", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:C不仅继承了B中的成员，同样也继承了A中的成员；", 
+   "B:C只继承了B中的成员；", 
+   "C:C只继承了A中的成员；", 
+   "D:C不能继承A或B中的成员；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列关于构造方法的叙述中，错误的是：", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:Java语言规定构造方法名与类名必须相同", 
+   "B:Java语言规定构造方法没有返回值，但不用void声明", 
+   "C:Java语言规定构造方法不可以重载", 
+   "D:Java语言规定构造方法只能通过new自动调用"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码,请问该程序的运行结果是什么?class Example{  public static void main (String args[]){    char a=’\\u1234’;  }}\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:代码编译成功.", 
+   "B:代码编译成功,但存在警告信息.", 
+   "C:代码编译失败"
+  ]
+ }, 
+ {
+  "A_CONTENT": "覆盖与重载的关系是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:覆盖只有发生在父类与子类之间，而重载可以发生在同一个类中", 
+   "B:覆盖方法可以不同名，而重载方法必须同名", 
+   "C:final修饰的方法可以被覆盖，但不能被重载", 
+   "D:覆盖与重载是同一回事"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"下面的代码段执行之后count的值是什么int count = 1;for (int i = 1; i <= 5; i++) {  count += i;}System.out.println(count);\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:5", 
+   "B:1", 
+   "C:15", 
+   "D:16"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些关于try-catch-finally结构中的finally语句的描述是正确的？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:只有当一个catch语句获得执行后，finally语句才获得执行，", 
+   "B:只有当catch语句未获得执行时，finally语句才获得执行。", 
+   "C:只有当线程结束量，finally语句才获得执行。", 
+   "D:只有当异常抛出时，finally语句才获得执行"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"已知如下定义： String s = \"\"\"story\"\"\"; 下面哪个表达式是合法的？\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:s += \"books\";", 
+   "B:char c = s[1];", 
+   "C:int len = s.length;", 
+   "D:String t = 100;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Java中，以下描述正确的有哪些？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:一个子类可以有多个父类，一个父类也可以有多个子类", 
+   "B:一个子类可以有多个父类，但一个父类只可以有一个子类", 
+   "C:一个子类可以有一个父类，但一个父类可以有多个子类", 
+   "D:一个子类可以有一个父类，一个父类只可以有一个子类"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些描述是正确的？", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:>> 为带符号移位运算符， >>>为无符号移位运算符。", 
+   "B:>>>为带符号移位运算符， >>为 无符号移位运算符。", 
+   "C:<< 为带符号移位运算符，<< <为 无符号移位运算符。", 
+   "D:<< <为带符号移位运算符， << 为无符号移位运算符。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"请问，以下代码错在何处(运行环境为JDK 1.4.2)？public class Example { public static void main(String args[]) {  Boolean b = new Boolean(\"\"\"TRUE\"\"\");  if (b) {   for (Integer i = 0; i < 10; ++i) {    System.out.println(i);   }  } }}\"", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:无错误。", 
+   "B:if条件表达式类型错误。", 
+   "C:for循环变量i类型错误。", 
+   "D:构造一个Boolean实例错误。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些修饰符可用于修饰方法？", 
+  "B_ANSWER": "C,D,E", 
+  "C_OPTIONS": [
+   "A:transient", 
+   "B:volatile", 
+   "C:private", 
+   "D:protected", 
+   "E:final"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些是有关垃圾回器的正确描述？", 
+  "B_ANSWER": "C,D", 
+  "C_OPTIONS": [
+   "A:程序员可以在指定调用时间调用垃圾回收器释放内存。", 
+   "B:垃圾回收器可以保证JAVA程序从不会产生内存溢出。", 
+   "C:程序员可以指定垃圾回收对象。", 
+   "D:对像的finaliz()方法在对象被垃圾回收之前获得调用。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面关于数组的说法中，错误的是：", 
+  "B_ANSWER": "A,B", 
+  "C_OPTIONS": [
+   "A:在类中声明一个整数数组作为成员变量，如果没有给它赋值，数值元素值为空；", 
+   "B:数组可以在内存空间连续存储任意一组数据；", 
+   "C:数组必须先声明，然后才能使用；", 
+   "D:数组本身是一个对象；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于接口，下列说法正确的有：", 
+  "B_ANSWER": "A,B,C,D", 
+  "C_OPTIONS": [
+   "A:接口内定义的变量必须被初始化；", 
+   "B:接口内定义的变量不能是private的；", 
+   "C:接口内的方法必须要被implements它的类全部实现；", 
+   "D:接口可以extends多个接口；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码，请问该程序的运行结果是什么？class Example { int x = 5; static String s = \"\"\"abcd\"\"\"; public static void menthod() {  System.out.println(s + x); }}\"", 
+  "B_ANSWER": "C,D,E", 
+  "C_OPTIONS": [
+   "A:打印输出abcd5。", 
+   "B:代码编译成功，但运行期会因变量x未声明为静态变量而抛出异常来。", 
+   "C:代码编译失败，因为静态方法不能直接访问非静态变量。", 
+   "D:代码编译失败，如果将变量x声明为静态变量，可使代码编译成功。", 
+   "E:代码编译失败，如果将menthod()方法前的static关键字移走，可使代码编译成功。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Java语言具有许多优点和特点，哪个反映了Java程序并行机制的特点？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:安全性", 
+   "B:跨平台", 
+   "C:多线性", 
+   "D:可移植"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些描述是正确的？", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:一个方法可以抛出一个异常。", 
+   "B:一个方法的返回值可以是一个异常。", 
+   "C:一个方法可以抛出多个异常。", 
+   "D:静态方法不能抛出异常。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些是catch语句捕获的异常类型？", 
+  "B_ANSWER": "A,B,C,D", 
+  "C_OPTIONS": [
+   "A:Throwable", 
+   "B:Error", 
+   "C:Exception", 
+   "D:String"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"请问以下代码错在何处？public class Example{   public static void main(String args[]){      for(i=0;j=0,i<10;++i,j+=i){       k+=i*i+j*j;      }   }}\"", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:在语句块中应超过一条以上的语句。", 
+   "B:在i=0和j=0之间应使用逗号。", 
+   "C:使用了两个循环变量。", 
+   "D:在j=0和i<10之间应使用分号。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"运行下列程序, 会产生什么结果：1.public class X extends Thread implements Runable{ 2.　public void run(){ 3.　　System.out.println(\"\"\"this is run()\"\"\"); 4.　} 5.　public static void main(String[] args){ 6.　　Thread t=new Thread(new X()); 7.　　t.start(); 8.　} 9.}\"", 
+  "B_ANSWER": "C,D", 
+  "C_OPTIONS": [
+   "A:第一行会产生编译错误", 
+   "B:第六行会产生编译错误", 
+   "C:第六行会产生运行错误", 
+   "D:程序会运行和启动"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，如何强制垃圾回收器回收一个对象？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:调用System.gc()方法", 
+   "B:调用Runtime.gc()方法", 
+   "C:将对象赋值null。", 
+   "D:无法强制垃圾回收器执行"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面的标签中哪些是JSTL标签？", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:＜c:out…/＞", 
+   "B:＜c:set…/＞", 
+   "C:＜c:if…/＞", 
+   "D:＜c:errors…/＞"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下哪些不能用来修饰interface？", 
+  "B_ANSWER": "A,C,D", 
+  "C_OPTIONS": [
+   "A:private", 
+   "B:public", 
+   "C:protected", 
+   "D:static"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出一条语句，请问以下哪些有关该语句的描述是正确的？private static int i = 3;\"", 
+  "B_ANSWER": "C,D", 
+  "C_OPTIONS": [
+   "A:变量i在被初始化后，其值不能再改变。", 
+   "B:变量i只能被静态方法改变。", 
+   "C:变量i的值被所有其所在的类实例共享。", 
+   "D:变量i只能被其他所在类访问。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "编译java程序时出现error: cannot read: ClassFile.java，则下列原因最正确的是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:原因是执行的当前目录下没有找到ClassFile.java文件；", 
+   "B:原因是没有安装JDK开发环境；", 
+   "C:原因是java源文件名后缀一定是以.txt结尾；", 
+   "D:原因是JDK安装后没有正确设置环境变量PATH和Classpath；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "对于有精度要求的浮点数计算时,可以使用以下哪些对象？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:float", 
+   "B:double", 
+   "C:BigDecimal", 
+   "D:int"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在Servlet里，能实现跳转的方法有?", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:运用javax.servlet.http.HttpServletRequest接口的sendRedirect方法", 
+   "B:运用javax.servlet.http.HttpServletResponse接口的sendRedirect方法", 
+   "C:运用javax.servlet.RequestDispatcher接口的forward方法", 
+   "D:运用javax.servlet.ResponseDispatcher接口的forward方法"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面关于servlet的功用说法正确的有哪些？", 
+  "B_ANSWER": "A,B,C,D,E", 
+  "C_OPTIONS": [
+   "A:读取客户程序发送来的显式数据", 
+   "B:读取客户程序发送来的隐式数据", 
+   "C:生成相应的结果", 
+   "D:发送显式的数据给客户程序", 
+   "E:发送隐式的数据给客户程序"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面关于数组声明和初始化的语句,哪些是正确的？", 
+  "B_ANSWER": "A,B,D", 
+  "C_OPTIONS": [
+   "A:int a1[]={3,4,5};", 
+   "B:String a2[]={\"string1\",\"string1\",\"string1\"};", 
+   "C:String a3[]=new String(3);", 
+   "D:int[][] a4=new int[3][3];"
+  ]
+ }, 
+ {
+  "A_CONTENT": "要创建一个新目录，可用下面哪个类实现？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:FileInputStream", 
+   "B:RandomAccessFile", 
+   "C:FileOutputStream", 
+   "D:File"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"getCustomerInfo()方法如下，try中可以捕获三种类型的异常，如果在该方法运行中产生了一个IOException，将会输出什么结果?    public void getCustomerInfo() {           try {               // do something that may cause an Exception           } catch (java.io.FileNotFoundException  ex){                 System.out.print(\"\"\"FileNotFoundException!\"\"\");           } catch (java.io.IOException  ex){                 System.out.print(\"\"\"IOException!\"\"\");           } catch (java.lang.Exception  ex){                 System.out.print(\"\"\"Exception!\"\"\");           }      }\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:IOException!", 
+   "B:IOException!Exception!", 
+   "C:FileNotFoundException!IOException!", 
+   "D:FileNotFoundException!IOException!Exception!"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列关于接口的叙述中哪些是错误的", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:接口中的数据必须设定初值", 
+   "B:接口中无法声明一般方法", 
+   "C:接口可以声明引用", 
+   "D:以上都正确"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，为了使一个名为MyClass和public类成功编译，需满足以下哪些条件？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:MyClass类中必须定义一个正确的main()方法。", 
+   "B:MyClass类必须定义在MyClass.java源文件中。", 
+   "C:MyClass类必须定义在MyClass包中。", 
+   "D:MyClass类必须被导入"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下选项中循环结构合法的是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:while (int  i<7){i++;System.out.println(“i is “+i); }", 
+   "B:int  j=3;while(j){ System.out.println(“ j  is “+j);}", 
+   "C:int  j=0;for(int  k=0; j + k !=10; j++,k++){ System.out.println(“ j  is “+ j + “k  is”+ k);}", 
+   "D:int  j=0;do{ System.out.println( “j  is “+j++); if (j = = 3) {continue  loop;} }while  (j<10);"
+  ]
+ }, 
+ {
+  "A_CONTENT": "有关会话跟踪技术描述正确的是?", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:Cookie是Web服务器发送给客户端的一小段信息，客户端请求时，可以读取该信息发送到服务器端", 
+   "B:关闭浏览器意味着会话ID丢失，但所有与原会话关联的会话数据仍保留在服务器上，直至会话过期", 
+   "C:在禁用Cookie时可以使用URL重写技术跟踪会话", 
+   "D:隐藏表单域将字段添加到HTML表单并在客户端浏览器中显示"
+  ]
+ }, 
+ {
+  "A_CONTENT": "可以通过以下哪些方法在不同用户之间共享数据？", 
+  "B_ANSWER": "B,C,D", 
+  "C_OPTIONS": [
+   "A:通过cookie", 
+   "B:利用文件系统", 
+   "C:利用数据库", 
+   "D:通过ServletContext对象"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"有以下程序片段，下列哪些选项可以插入到第1行。第1行:第2行：public  class  Interesting{第3行：//TODO第4行：}\"", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:import java.awt.*;", 
+   "B:package mypackage;", 
+   "C:class OtherClass{   }", 
+   "D:public class MyClass{ }"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面关于session的用法哪些是错误的？", 
+  "B_ANSWER": "A,B,D", 
+  "C_OPTIONS": [
+   "A:HttpSession session = new HttpSession（）;", 
+   "B:String haha = session.getParameter（“haha”）;", 
+   "C:session.removeAttribute（“haha”）;", 
+   "D:session. setAttribute（“haha”）;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于package和import关键字下面说法错误的是：                                                  ", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:如果一个类不指这package，就会被归类到默认的package", 
+   "B:package关键字必须放在import关键字之前", 
+   "C:import关键字必须放在package关键字之前", 
+   "D:虚拟机已经缺省引入了java.lang.*包，所以编写程序的时候不需要引主该包"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面哪一行代码正确的声明了一个类方法(静态方法)？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:public int method(int i)", 
+   "B:protected method(int i)", 
+   "C:public static method(String s)", 
+   "D:protected static void method(Integer i)"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些是synchronized修饰符可以修饰的对象？请选择正确答案：", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:类中的静态方法", 
+   "B:对象中方法", 
+   "C:方法中的代码块", 
+   "D:变量", 
+   "E:类"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些描述是正确的？", 
+  "B_ANSWER": "A,D", 
+  "C_OPTIONS": [
+   "A:如果package语句存在，则必须出现在源文件的非空白首行。", 
+   "B:如果import语句存在，则必须出现在源文件的非空白首行。", 
+   "C:如果main()方法存在，则必须出现在源文件的非空白首行。", 
+   "D:如果在源文件中声明了一个public接口，则其名称必须和源文件名一致。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些描述是正确的？", 
+  "B_ANSWER": "C,D", 
+  "C_OPTIONS": [
+   "A:try语句玦必须不能至少存在一个catch语句块。", 
+   "B:try语句玦后可以不限数量fianlly语句块。", 
+   "C:try语句玦必须至少存在一个catch语句块或finally语句块。", 
+   "D:如果catch和finally语句块同时存在，则catch语句玦必须位于finally语句块前。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面哪些选项不可以用作变量名的首字符？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:字母", 
+   "B:下划线（＿）", 
+   "C:数字", 
+   "D:美圆符号（＄）"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"How many lines of output will be produced by the following code fragment?for (int i = 0; i < 3; ++i) {    for (int j = 0; j < i; ++j) {        System.out.println(i + j);    }}\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:6", 
+   "B:4", 
+   "C:3", 
+   "D:5"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"请问，以下代码片断错在何处？while(x>>2) do{    x*=y}\"", 
+  "B_ANSWER": "A,B", 
+  "C_OPTIONS": [
+   "A:循环表达式不是一个布尔表达式。", 
+   "B:关键字do应被去掉。", 
+   "C:关键字while应大写。", 
+   "D:没有错误"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"执行下列代码后，哪个结论是正确的？String[] strArr = new String[10];\"", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:strArr[10]为\"\"\"；", 
+   "B:strArr[9]为NULL；", 
+   "C:strArr[0]为未定义；", 
+   "D:strArr.length为10；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"编译并运行以下程序，以下描述哪个选项是正确的1.  class  A{2.      protected  boolean  equals(){3.           return  super.equals();4． }5. }\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:编译通过运行无异常", 
+   "B:编译通过但运行时出错", 
+   "C:行2出错，不能成功编译", 
+   "D:不能成功编译，行3出错"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码，请问哪些是有关该方法声明的正确描述？void myMethod(String s){}\"", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:myMethob（）方法是一个静态方法。", 
+   "B:myMethob（）方法没有返回值。", 
+   "C:myMethob（）方法是一个抽象方法。", 
+   "D:myMethob（）方法不能被所在的包之外的类访问。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面关于JSP作用域对象的说法错误的是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:request对象可以得到请求中的参数", 
+   "B:session对象可以保存用户信息", 
+   "C:application对象可以被多个应用共享", 
+   "D:作用域范围从小到达是request、session、application"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问以下哪些有关接口的描述是正确的？", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:在接口中定义的方法默认为private方法。", 
+   "B:在接口中定义的方法默认为public、static、final方法。", 
+   "C:一个接口可以继承多个接口。", 
+   "D:关键字implements代表继承关系。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "MAX_LENGTH是int型public成员变量, 变量值保持为常量100，用简短语句定义这个变量。", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:public int MAX_LENGTH=100;", 
+   "B:final int MAX_LENGTH=100;", 
+   "C:final public int MAX_LENGTH=100;", 
+   "D:public final int MAX_LENGTH=100;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "编写自定义标签处理类后，需要编写一个（）去描述", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:.tag文件", 
+   "B:.tld文件", 
+   "C:.dtd文件", 
+   "D:.xml文件"
+  ]
+ }, 
+ {
+  "A_CONTENT": "运算符优先级别排序正确的是：", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:由高向低分别是：()、!、算术运算符、关系运算符、逻辑运算符、赋值运算符；", 
+   "B:由高向低分别是：()、关系运算符、算术运算符、逻辑运算符、!、赋值运算符；", 
+   "C:由高向低分别是：()、算术运算符、逻辑运算符、关系运算符、!、赋值运算符；", 
+   "D:由高向低分别是：()、!、关系运算符、赋值运算符、算术运算符、逻辑运算符；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于类的描述正确的是：", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:在类中定义的变量称为类的成员变量，在别的类中可以直接使用；", 
+   "B:局部变量的作用范围仅仅在定义它的方法内，或者是在定义它的控制流块中；", 
+   "C:使用别的类的方法仅仅需要引用方法的名字即可；", 
+   "D:一个类的方法使用该类的另一方法时可以直接引用方法名；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在E-R模型中，包含以下基本成分", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:数据、对象、实体", 
+   "B:控制、联系、对象", 
+   "C:实体、联系、属性", 
+   "D:对象、属性、操作"
+  ]
+ }, 
+ {
+  "A_CONTENT": "EJB有哪些对象？", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:Remote（Local）接口", 
+   "B:Home（LocalHome）接口", 
+   "C:Bean类", 
+   "D:EnterpriseBean Provider"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在异常处理中，如释放资源、关闭文件、关闭数据库等应该写在哪个语句块中？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:try子句", 
+   "B:catch子句", 
+   "C:finally子句", 
+   "D:throw子句"
+  ]
+ }, 
+ {
+  "A_CONTENT": "声明成员变量时,如果不使用任何访问控制符(public, protected, private)，则以下哪种类型的类不能对该成员进行直接访问", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:同一类", 
+   "B:同一包中的子类", 
+   "C:同一包中的非子类", 
+   "D:不同包中的子类"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些关于数组造型的描述是正确的？", 
+  "B_ANSWER": "A,B", 
+  "C_OPTIONS": [
+   "A:一个数组的引用可以造型成一个Object类型的引用。", 
+   "B:一个数组的引用可以造型成一个Cloneable类型的引用。", 
+   "C:一个数组的引用可以造型成一个String类型的引用。", 
+   "D:以上均不对"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"以下代码的输出结果是：int i = 10;while(i>0){    i = i + 1;    if(i == 10){        break;    }}\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:while循环执行10次；", 
+   "B:死循环；", 
+   "C:循环一次都不执行；", 
+   "D:循环执行一次；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "构造方法何时被调用?", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:类定义时", 
+   "B:创建对象时", 
+   "C:调用对象方法时", 
+   "D:使用对象的变量时"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面关于MVC说法错误的有哪些？", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:必须使用复杂的框架", 
+   "B:使用内建的RequestDispatcher能够很好地实现MVC", 
+   "C:MVC影响整个系统的设计", 
+   "D:我们可以用MVC来处理单个请求"
+  ]
+ }, 
+ {
+  "A_CONTENT": "设栈S和队列Q的初始状态为空，元素E1、E2、E3、E4、E5和E6依次通过栈S，一个元素出栈后即进入队列Q，若6个元素出列的顺序为E2、E4、E3、E6、E5和E1，则栈S的容量至少应该是?", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:6", 
+   "B:4", 
+   "C:3", 
+   "D:2"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于对象成员占用内存的说法哪个正确？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:同一个类的对象共用同一段内存", 
+   "B:同一个类的对象使用不同的内存段，但静态成员共享相同的内存空间", 
+   "C:对象的方法不占用内存", 
+   "D:以上都不对"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"阅读Shape和Circle两个类的定义。在序列化一个Circle的对象circle到文件时，下面哪些字段会被保存到文件中？class Shape {           public String name;}class Circle extends Shape implements Serializable{       private float radius;       transient int color;       public static String type = \"\"\"Circle\"\"\";}\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:name", 
+   "B:radius", 
+   "C:color", 
+   "D:type"
+  ]
+ }, 
+ {
+  "A_CONTENT": "利用MyEclipse开发Servlet，下列说法正确的是", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:MyEclipse可自动产生web.xml", 
+   "B:MyEclipse不能自动产生web.xml，需要手工编写", 
+   "C:可利用MyEclipse自带的Tomcat作为Servlet容器", 
+   "D:MyEclipse没有自带Tomcat，需要自己安装配置。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列描述中不正确的一项是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:import语句告诉Java用户需要哪个包（package）中的类", 
+   "B:所有的类必须实例化，才能调用它的数据成员和方法", 
+   "C:package语句用于将源文件存入所指定的包中", 
+   "D:System类不能实例化，它的所有方法都是通过类变量来调用的"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些有关java.lang.Exception异常类的描述是正确的？", 
+  "B_ANSWER": "A,B,D", 
+  "C_OPTIONS": [
+   "A:该类是一个公共类。", 
+   "B:该类是Throwable类的子类。", 
+   "C:该类实现了Throwable接口。", 
+   "D:该类可以序列化。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码，请问该程序运行的结果是什么？class Example {  public static void main(String args[]){    double x =64.5;    double y=6.0;    System.out.println(x/y+\"\"\"\"\"\"\"+ x%y);  }}\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:编译失败。", 
+   "B:运行期异常。", 
+   "C:10.754.5", 
+   "D:10.75"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下哪个关键字可以用来为对象加互斥锁？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:transient", 
+   "B:serialize", 
+   "C:static", 
+   "D:synchronized"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"定义字符串s;String s=\"\"\"Micrsoft公司\"\"\"；执行下面的语句，c的值为?char c=s.charAt(9);\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:产生数组下标越界异常", 
+   "B:司", 
+   "C:公", 
+   "D:null"
+  ]
+ }, 
+ {
+  "A_CONTENT": "使用GET方式提交数据,接收数据时，处理中文最直接有效方式为", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:request.setCharacterEncoding(\"utf-8\");", 
+   "B:response.setContentType(\"text/html;charset=utf-8\");", 
+   "C:String name=new String(request.getParameter(\"name\").getBytes(\"ISO-8859-1\"),\"gbk\");", 
+   "D:response.setCharacterEncoding(\"gbk\");"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"阅读以下代码：import java.io.*;import java.util.*;public class foo{public static void main (String[] args){String s;System.out.println(\"\"\"s=\"\"\" + s);}}输出结果应该是：\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:代码得到编译，并输出“s=”", 
+   "B:代码得到编译，并输出“s=null”", 
+   "C:由于String s没有初始化，代码不能编译通过", 
+   "D:代码得到编译，但捕获到 NullPointException异常"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在web.xml中使用___________标签配置过滤器", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:＜filter＞和＜filter-mapping＞", 
+   "B:＜filter-name＞和＜filter-class＞", 
+   "C:＜filter＞和＜filter-class＞", 
+   "D:＜filter-pattern＞和＜filter＞"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些是一个native方法的正确形式？", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:public native void aMethod()；", 
+   "B:public native void aMethod(){}；", 
+   "C:public void native aMethod()；", 
+   "D:public native aMethod(){}；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "软件设计中划分模块的一个准则是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:低内聚低耦合", 
+   "B:低内聚高耦合", 
+   "C:高内聚低耦合", 
+   "D:高内聚高耦合"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码，请问该程序的运行结果是什么？import java.io.IOException;public class Base{  public Base()throws IOException{    throw new IOException();  }}public abstract class Sub extends Base{  public abstract void method();}\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:代码编译失败，因为非抽象类不能被扩展为抽象类。", 
+   "B:代码编译失败，因为必须提供可以抛出或可以不抛出IOException异常的构造器。", 
+   "C:代码编译失败，因为必须提供可以抛出IOException异常或其子类的构造器。", 
+   "D:代码编译成功"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于super的说法正确的是：", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:是指当前对象的内存地址", 
+   "B:是指当前对象的父类对象的内存地址", 
+   "C:是指当前对象的父类", 
+   "D:可以用在main()方法中"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些语句用于实现将一个数值为17对应的八进制文字值赋值给一个整数变量？", 
+  "B_ANSWER": "B,C,E", 
+  "C_OPTIONS": [
+   "A:private final int theNumber=0x17;", 
+   "B:private final int theNumber=017;", 
+   "C:prblic int theNumber=017;", 
+   "D:public int theNumber=(octal)17;", 
+   "E:public int THE_NUMBER=017;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出下面代码：public class Person{    static int[] arr = new int[10];    public static void main(String[] args){        System.out.println(arr[1]);    }}下面哪些语句是正确的？\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:编译时将产生错误；", 
+   "B:编译时正确，运行时将产生错误；", 
+   "C:输出0；", 
+   "D:输出NULL；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "byte的数值范围是?", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:0~32767", 
+   "B:0~65535", 
+   "C:-256~255", 
+   "D:-32768~32767"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于异常的处理框架try{}catch()finally{}中说法错误的有：", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:finally里面的所有代码必定都可以执行到；", 
+   "B:catch异常一定要按从特殊到普通顺序进行；", 
+   "C:try和catch的{}之间可以有其他的代码；", 
+   "D:可以不要finally，只有try{}catch()；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列哪种异常是检查型异常，需要在编写程序时声明", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:NullPointerException", 
+   "B:ClassCastException", 
+   "C:FileNotFoundException", 
+   "D:IndexOutOfBoundsException"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些描述是正确的？", 
+  "B_ANSWER": "E", 
+  "C_OPTIONS": [
+   "A:transient方法不能被重载。", 
+   "B:transient方法必须被重载。", 
+   "C:transient类不能被序列化。", 
+   "D:transient变量必须是静态变量。", 
+   "E:transient变量不能被序列化。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "一个线程在任何时刻都处于某种线程状态（thread state）,例如运行状态、阻塞状态、就绪状态等。一个线程可以由选项中的哪种线程状态直接到达运行状态？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:死亡状态", 
+   "B:阻塞状态（对象lock池内）", 
+   "C:阻塞状态（对象wait池内）", 
+   "D:就绪状态"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码，请问以下哪些描述的正确的？public class A{ A( ) { }}\"", 
+  "B_ANSWER": "A,D", 
+  "C_OPTIONS": [
+   "A:类A可以被其他包中的类访问。", 
+   "B:类A不可以被其他包中的类访问。", 
+   "C:类A不可以被其他包中的类继承。", 
+   "D:类A可以被其他包中的类访问和继承。", 
+   "E:代码编译错误，因为公共类的构造器也必须是公共的。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码，请问该程序的运行结果是什么？class Example {    public static void main (String[] args){         int Output = 10;         Boolean b1 = false;         if (b1 = true)&&((Output = 10)==20)){             System .out .println(“We are equal!”+Output);}else{      System .out .println(“Not equal!”+Output);      }    }}\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:代码编译失败。", 
+   "B:打印输出We are equal! 10", 
+   "C:打印输出Not equal!20", 
+   "D:打印输出Not equal!10"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在JSP中，＜%＝\"1+4\"%＞将输出", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:1+4", 
+   "B:5", 
+   "C:14", 
+   "D:不会输出，因为表达式是错误的"
+  ]
+ }, 
+ {
+  "A_CONTENT": "要从文件\" file.dat\"文件中读出第10个字节到变量C中,下列哪个方法适合?", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:FileInputStream in=new FileInputStream(\"file.dat\"); in.skip(9); int c=in.read();", 
+   "B:FileInputStream in=new FileInputStream(\"file.dat\"); in.skip(10); int c=in.read();", 
+   "C:FileInputStream in=new FileInputStream(\"file.dat\"); int c=in.read();", 
+   "D:RandomAccessFile in=new RandomAccessFile(\"file.dat\"); in.skip(9); int c=in.readByte();"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列说法错误的有：", 
+  "B_ANSWER": "B,C,D", 
+  "C_OPTIONS": [
+   "A:数组是一种对象；", 
+   "B:数组属于一种原生类；", 
+   "C:int number=[]={31,23,33,43,35,63}；", 
+   "D:数组的大小可以任意改变；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"请问，以下代码片断错在何处？if(x++){     y=x*z;     x/=2;  else{     y=y*y;     ++z;   } }\"", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:if条件表达式中的前缀自动递增运算符改为后缀自动递增运算符。", 
+   "B:if条件表达式的结果应为布尔型，而不是数值型。", 
+   "C:在else前少了一个花括号}。", 
+   "D:缺少跳出语句块的break语句."
+  ]
+ }, 
+ {
+  "A_CONTENT": "在 J2EE中，使用 Resultset对象的 next()方法移动光标时，如果超过界限，会抛出异常，该异常通常是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:AlreadyBoundExceptlon", 
+   "B:InterruptedExceptlon", 
+   "C:SQLException", 
+   "D:NetExcePtlon"
+  ]
+ }, 
+ {
+  "A_CONTENT": "定义变量b:boolean b=ture;则String.valueOf(b)的类型是?", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:Boolean", 
+   "B:String", 
+   "C:FALSE", 
+   "D:int"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下哪些规约，符合润和的Java编码规约?", 
+  "B_ANSWER": "A,B,D", 
+  "C_OPTIONS": [
+   "A:禁止使用制表符", 
+   "B:优先使用JavaDoc所推荐的方法，禁止使用java废弃的方法。", 
+   "C:方法名必须以大写字母开头", 
+   "D:禁止使用通配符全包引入"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，如果finalize ()方法抛出一个运行期异常，以下哪些描述正确？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:正在运行的应用程序系统崩溃。", 
+   "B:此异常被忽略，并且该异常对像被垃圾回收器回收。", 
+   "C:此异常被忽略，但是该异常对象未被回收器回收。", 
+   "D:此异常导致JVM崩溃。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "如果希望某个变量只可以被类本身访问和调用,则应该使用下列哪一种访问控制修饰", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:private", 
+   "B:protected", 
+   "C:private  protected", 
+   "D:public"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于StringBuffer下面说法错误的是：                                                   ", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:StringBuffer是从BufferedWriter继承，用作字符串输出", 
+   "B:使用StringBuffer可以提高多个字符串相加的效率", 
+   "C:多个字符串相加使用StringBuffer不会产生较少的内存碎片", 
+   "D:StringBuffer和String的区别在于StringBuffer是可以修改的，string是只读的"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"以下代码定义了一个变量，如何输出这个变量的值?＜bean:define id=”stringBean” value=“helloWorld“/＞\"", 
+  "B_ANSWER": "A,D", 
+  "C_OPTIONS": [
+   "A:＜bean:write name=“stringBean”/＞", 
+   "B:＜bean:write name=“helloWorld”/＞", 
+   "C:＜%= stringBean%＞", 
+   "D:＜%= pageContext.getAttribute(“stringBean”,PageContext.PAGE_SCOPE);%＞"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出下面代码，关于该程序以下哪个说法是正确的？public class Person{     static int arr[] = new int[5];    public static void main(String a[]) {       System.out.println(arr[0]);    }}\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:编译时将产生错误", 
+   "B:编译时正确，运行时将产生错误", 
+   "C:输出零", 
+   "D:输出空"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在JSP页面中，保存数据的范围由小到大依次是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:pageContext,request,application,session", 
+   "B:pageContext,application,session,request", 
+   "C:pageContext,request,session,application", 
+   "D:pageContext,session,request,application"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"list是一个ArrayList的对象，哪个选项的代码填写到//todo delete处，可以在Iterator遍历的过程中正确并安全的删除一个list中保存的对象？Iterator it = list.iterator();int index = 0;while (it.hasNext()){    Object obj = it.next();    if (needDelete(obj)) { //needDelete返回boolean，决定是否要删除    //todo delete    }    index ++;}\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:list.remove(obj);", 
+   "B:list.remove(index);", 
+   "C:list.remove(it.next());", 
+   "D:it.remove();"
+  ]
+ }, 
+ {
+  "A_CONTENT": "表单标记中的action属性的作用是?", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:为表单命名", 
+   "B:调用客户端验证方法", 
+   "C:指明表单信息发送的目的地址", 
+   "D:声明表单的提交方式"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于关键字this和super，以下正确的是：", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:都可以用在main()方法中", 
+   "B:都是指一个内存地址", 
+   "C:不能用在main()方法中", 
+   "D:意义相同"
+  ]
+ }, 
+ {
+  "A_CONTENT": "支持中文的常用字符集有", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:UTF-8   GBK  ZH23  BIG5", 
+   "B:ISO-8859-1  MS950", 
+   "C:UTF-8   GBK  GB2312  BIG5", 
+   "D:UTF-16  ANSI  SQL"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码，请问该程序运行的结果是什么？public class Example { final int x = 0; Example() {  x = 1; } final int aMethod() {  return x; }}\"", 
+  "B_ANSWER": "C,D", 
+  "C_OPTIONS": [
+   "A:代码编译错误,因为非final类中存在final 方法。", 
+   "B:代码编译成功。", 
+   "C:代码编译错误,因为代码中对一个final变量x有改变其值的操作。", 
+   "D:代码编译错误,如果去掉变量x前的final修饰符，可使代码编译通过。", 
+   "E:代码编译错误,因为final修饰符只能修饰方法不能修饰变量，因此语句final int x=0错误。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "数据耦合、公共耦合、标记耦合、控制耦合的耦合性从低到高的顺序是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:数据、公共、标记、控制", 
+   "B:数据、标记、控制、公共", 
+   "C:控制、数据、标记、公共", 
+   "D:控制、数据、公共、标记"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码，请问选择因子取何值可以打印输出”Message 2”?Switch(x){  case1:    System.out.println(\"\"\"Message1”);  case2:  case3:    System.out.println(\"\"\"Message2”);  default;    System.out.println(\"\"\"End”);}\"", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:1", 
+   "B:2", 
+   "C:3", 
+   "D:4", 
+   "E:以上均不对。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"现在session中没有任何属性，阅读下面2个JSP中的代码，将分别输出 ＜%  out.println(session.getAttribute(\"\"\"svse \"\"\")); %＞ ＜%  session.invalidate();  out.println(session.getAttribute(\"\"\"svse \"\"\")); %＞  \"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:null, null", 
+   "B:null, 异常信息", 
+   "C:异常信息，异常信息", 
+   "D:异常信息，null"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些有关垃圾回收器的描述是正确的？", 
+  "B_ANSWER": "A,B", 
+  "C_OPTIONS": [
+   "A:垃圾回收器是一个优先级的后台线程。", 
+   "B:垃圾回收器始终监视着每个对像。", 
+   "C:可以调用垃圾回收器回收指定的对像"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面的选项中，哪一项不属于“汽车类”的行为：", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:启动", 
+   "B:刹车", 
+   "C:减速", 
+   "D:速度"
+  ]
+ }, 
+ {
+  "A_CONTENT": "函数重载是指?", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:两个或两个以上的函数取相同的函数名，但形参的个数或类型不同", 
+   "B:两个以上的函数取相同的名字和具有相同的参数个数，但形参的类型可以不同", 
+   "C:两个以上的函数名字不同，但形参的个数或类型相同", 
+   "D:两个以上的函数取相同的函数名，并且函数的返回类型相同"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些描述是正确的？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:只有基本数据类型能自动进行类型转换，引用型必须明确造型。", 
+   "B:只有引用型能自动进行类型转换，基本数据类型必须明确造型。", 
+   "C:引用型参与数学运算需要明确造型。", 
+   "D:基本数据类型和引用型均可以进行类型转换和造型。", 
+   "E:数值类型需要运行期检查"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在 J2EE中，使用 Servlet 过滤器，需要在 web.xml中配置（）元素 (选择两项)", 
+  "B_ANSWER": "A,B", 
+  "C_OPTIONS": [
+   "A:＜filter＞", 
+   "B:＜filter-mapping＞", 
+   "C:＜servlet-filter＞", 
+   "D:＜filter-config＞"
+  ]
+ }, 
+ {
+  "A_CONTENT": "当一个Servlet首次被请求的时候,服务器首先会调用________方法", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:doGet", 
+   "B:doPost", 
+   "C:doInit", 
+   "D:init"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"在servlet中的doGet和doPost方法中只有如下代码： ()          request．setAttribute（”jb”，”aPtech”）；          response．sendRedirect（”http://localhost:8080/servlet/Servlet2”）；        那么在Servlet2 中使用（）可以把属性jb的值取出来\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:String str = request.getAttribute(“jb”);", 
+   "B:String sir =(String)request.getAttribute(“jb”)；", 
+   "C:Object str = request.getAttribute(“jb“)；", 
+   "D:取不出来"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，如何放掉一个指定占据的内存空间？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:调用free()方法。", 
+   "B:代用system.gc()方法。", 
+   "C:赋值给该项对象的引用为null.", 
+   "D:程序员无法明确强制垃圾回收器运行"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些是Java应用程序的合法main方法形式？", 
+  "B_ANSWER": "A,B,D", 
+  "C_OPTIONS": [
+   "A:public static void main(String []args)", 
+   "B:static public void main(String args[])", 
+   "C:public void main(String args[])", 
+   "D:public static void main(String args[])"
+  ]
+ }, 
+ {
+  "A_CONTENT": "编写一个Filter，需要?", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:继承Filter 类", 
+   "B:实现Filter 接口", 
+   "C:继承HttpFilter 类", 
+   "D:实现HttpFilter接口"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下啊个描述正确？", 
+  "B_ANSWER": "A,C,E", 
+  "C_OPTIONS": [
+   "A:int类型是一个32位的有符号整数值。", 
+   "B:short类型是一个16位的无符号整数值。", 
+   "C:char类型是一个16位的Unicode编码字符。", 
+   "D:float类型是一个64位的浮点数值。", 
+   "E:long类型是一个64位的有符号整数值。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "application对象是______________  ，而session对象则是_____________ ", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:服务器的一个数据空间，可以让服务器中的所有应用共享数据       与用户的请求有关", 
+   "B:应用程序上下文，它允许数据在同一应用程序中的任何Web组件共享     每个客户专用的", 
+   "C:存放所有的请求中数据     存放会话中的所有数据", 
+   "D:HttpApplication类型    保存用访问应用期间的私有数据"
+  ]
+ }, 
+ {
+  "A_CONTENT": "使用Junit测试equals()必须根据哪些属性来进行？", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:反身性", 
+   "B:对称性", 
+   "C:传递性", 
+   "D:一致性"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码，请问该程序的运行结果是什么？public abstract class AbstractClass{    public AbstractClass(){        System.out.printIn(\"\"\"this is an abstract class constructor!\"\"\");    }    public void aMethod(){        System.out.printIn(\"\"\"This is in the method in the abstract class\"\"\");    }}请选择一个正确答案：\"", 
+  "B_ANSWER": "E", 
+  "C_OPTIONS": [
+   "A:代码编译失败，因为抽象类不能有构造器；", 
+   "B:代码编译失败，因为抽象类的方法不能有返回值类型声明；", 
+   "C:代码编译失败，因为当类不存在抽象方法时，是不能定义为抽象类的；", 
+   "D:代码编译成功，并且因为该类实际上不是抽象类，因此可以被实例化；", 
+   "E:代码编译成功，但不能被实例化。可以被扩展为非抽象类，子类的构造器可以调用抽象父类的构造器；", 
+   "F:代码编译成功，但不能被实例化。可以被扩展为非抽象类，子类的构造器不可以调用抽象父类的构造器；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"选项中哪一行代码可以替换题目中//add code here而不产生编译错误？public abstract class MyClass {           public int constInt = 5;          //add code here           public void method() {               }}\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:public abstract void method(int a);", 
+   "B:value = value + 5;", 
+   "C:public int method();", 
+   "D:public abstract void anotherMethod() {}"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，Throwable类是否是所有异常的超类？", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:是", 
+   "B:否"
+  ]
+ }, 
+ {
+  "A_CONTENT": "欲构造ArrayList类的一个实例，此类实现了List接口，下列哪个方法是正确并且符合规范的？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:ArrayList arrList = new ArrayList();", 
+   "B:List arrList = new ArrayList();", 
+   "C:ArrayList arrList = new List();", 
+   "D:List aaa = new ArrayList();"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下关于构造函数，描述正确的是？", 
+  "B_ANSWER": "B,C,D", 
+  "C_OPTIONS": [
+   "A:构造函数的返回类型只能是void型。", 
+   "B:构造函数是类的一种特殊函数，它的方法名必须与类名相同。", 
+   "C:构造函数的主要作用是完成对类的对象的初始化工作。", 
+   "D:一般在创建新对象时，系统会自动调用构造函数。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "请问，以下哪些表达式是正确的？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:if(A instanceOf B)", 
+   "B:if(A instanceof B)", 
+   "C:if(A intanceof(B))", 
+   "D:if(A intanceOf(B))"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"以下程序的运行结果是：public class Increment{       public static void main(String args[]){int c;c = 2;System.out.println(c);System.out.println(c++);System.out.println(c);}}\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:2 2 2", 
+   "B:2 2 3", 
+   "C:2 3 3", 
+   "D:3 4 4"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"以下的语句构造了几个JAVA对象？String str = new String(\"\"\"new String()\"\"\");\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:1个", 
+   "B:2个", 
+   "C:3个", 
+   "D:4个"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于＜jsp:include page=”Relative URL” /＞说法正确的有哪些？", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:URL的输出在请求时被插入到JSP页面中", 
+   "B:不能含有影响整个页面的JSP内容", 
+   "C:被包含文件改变后不需更改使用它的页面", 
+   "D:被包含文件更改后，需要手动地更新使用它的页面"
+  ]
+ }, 
+ {
+  "A_CONTENT": "执行语句int i = 1, j = ++i; 后i与j的值分别为", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:1与1", 
+   "B:2与1", 
+   "C:1与2", 
+   "D:2与2"
+  ]
+ }, 
+ {
+  "A_CONTENT": "给出以下代码，请问该程序的运行结果是什么？\npublic class Check{\n  public static void main(String[] args){\n    int x=1;\n    String[] names={\"A\",\"B\",\"C\"};\n    names[--x]+=\",\";\n    for ( int i=0;i<names,length;i++ ){\n      System.out.print(names[i]);\n    }\n  }\n}", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:打印输出A,BC", 
+   "B:打印输出AB,C", 
+   "C:打印输出ABC,", 
+   "D:打印输出ABC", 
+   "E:运行期抛出一个ArrayIndexOutOfBoundsException异常"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"以下代码执行效果为（）：＜ c:forEach var  = \"\"\"i\"\"\" begin = \"\"\"1\"\"\" end = \"\"\"5\"\"\" step = \"\"\"2\"\"\"＞ ＜ c:out value=“${i}” / ＞＜ / c:forEach ＞ \"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:1 2 3 4 5", 
+   "B:1 3 5", 
+   "C:i i i", 
+   "D:15"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在WEB应用程序的目录结构中，在WEB-INF文件夹中的lib目录是放()文件的", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:.jsp文件", 
+   "B:.class文件", 
+   "C:.jar文件", 
+   "D:web.xml文件"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列哪些语句关于内存回收的说明是正确的？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:程序员必须创建一个线程来释放内存；", 
+   "B:内存回收程序负责释放无用内存；", 
+   "C:内存回收程序允许程序员直接释放内存；", 
+   "D:内存回收程序可以在制定的时间释放内存对象；"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面的哪个选项不能实现页面的跳转", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:＜jsp:redirect url=\" someurl\"/ ＞", 
+   "B:＜%response.sendRedirect(\"someurl\");%＞", 
+   "C:＜jsp:forward page=\"someurl\" / ＞", 
+   "D:＜c:redirect url=\"someurl\"/ ＞"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码，请问以下关于一个实现该接口的类的哪些描述是正确的？public interface Example{    void someMethod();}请选择所有正确答案：\"", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:该类应该有一个被声明为public的someMethod()方法。", 
+   "B:该类应该有一个被声明为public的或不加任何访问修饰符的someMethod()方法。", 
+   "C:该类应该有一个不抛出任何异常的someMethod()方法。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下代码，请问变量a取何值，该程序打印输出if-2?if(a>4)  System.out.println(“if-1”);else if (a>9)  System.out.println(“if-2”);else  System.out.println(“if-3”);\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:10", 
+   "B:1", 
+   "C:-5", 
+   "D:无论取值均不可能打印输出if-2"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下哪个方法用于定义线程的执行体？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:start()", 
+   "B:run()", 
+   "C:init()", 
+   "D:execute()"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"给出以下的代码，请问该程序的运算结果是什么？class Example { public static void main(String args[]) {  try {   double x = 64.0;   double y = 0.0;   System.out.println(x % y);  } catch (Exception e) {   System.out.println(\"\"\"Exception\"\"\");  } }}\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:编译失败。", 
+   "B:运行期异常。", 
+   "C:打印输出Infinity.", 
+   "D:打印输出NaN"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Tomcat的端口号可以在_____文件中修改", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:server.xml", 
+   "B:web.xml", 
+   "C:tomcat.xml", 
+   "D:不能改"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于MVC模式说法正确的是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:用来将代码分开的方法", 
+   "B:将显示、流程控制、业务逻辑分开，提高维护性和分离复杂度", 
+   "C:视图 模型 控制器模型", 
+   "D:只用java才有的模型"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"下面的方法，当输入为2的时候返回值是多少?public int getValue(int i) {        int result = 0;        switch (i) {            case 1:                result = result + i;            case 2:                result = result + i * 2;            case 3:                result = result + i * 3;        }        return result;    }\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:0", 
+   "B:2", 
+   "C:4", 
+   "D:10"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"运行下列程序, 会产生什么结果public class X extends Thread implements Runnable{      public void run(){          System.out.println(\"\"\"this is run()\"\"\");      }      public static void main(String args[]) {          Thread t=new Thread(new X());          t.start();      } } \"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:第一行会产生编译错误", 
+   "B:第六行会产生编译错误", 
+   "C:第六行会产生运行错误", 
+   "D:程序会运行和启动"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"编译并运行以下程序，以下描述哪个选项是正确的?1.  class  A{2.      protected  boolean  equals(){3.           return  super.equals();4． }5. }\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:编译通过运行无异常", 
+   "B:编译通过但运行时出错", 
+   "C:行2出错，不能成功编译", 
+   "D:不能成功编译，行3出错"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"编译运行以下程序后，关于输出结果的说明正确的是public  class   Conditional{    public  static  void  main(String  args[ ]){      int  x=4;System.out.println(“value  is  “+ ((x>4) ? 99.9:9));}}\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:输出结果为：value  is  9.0", 
+   "B:输出结果为：value  is  99.9", 
+   "C:输出结果为：value  is  9", 
+   "D:编译错误"
+  ]
+ }
+]

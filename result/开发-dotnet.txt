@@ -1,0 +1,1275 @@
+[
+ {
+  "A_CONTENT": "在ASP.NET的配置文件中，以下哪个节点能用来设置上传文件最大大小", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:System.Web", 
+   "B:HttpRuntime", 
+   "C:HttpModuels", 
+   "D:HttpHanlers"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在C#中,预处理器指令#region（地区，范围） 和#endregion 的作用是", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:注释#region 和#endregion 之间的代码", 
+   "B:为Code Editor 定义一段可折叠代码区", 
+   "C:#region 和#endregion 之间的代码在Debug 版本中不参加编译", 
+   "D:#region 和#endregion 之间的代码在Release 版本中不参加编译"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"class test{    public readonly int i = 20;    public test(){i = 30;}}int main(){test t = new test();t.i=40; System.Console.WriteLine(t.i);}输出时多少？\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:20", 
+   "B:30", 
+   "C:40", 
+   "D:编译错误"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在ASP.NET中，如何判断页面为第一次加载?", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:IsPostBack == true", 
+   "B:IsPostBack == false", 
+   "C:IsCallback == true", 
+   "D:IsCallback == false"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"string strTmp = \"\"\"My name is yunn\"\"\";Console.WriteLine(strTmp.Substring(11,3));输出时什么?\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:yn", 
+   "B:ynn", 
+   "C:is", 
+   "D:s y"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列说法中正确的是？", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:派生类对象可以显示装换为基类对象", 
+   "B:在任何情况下、基类对象都不能转换为派生类对象", 
+   "C:接口不可以实例化，也不可以引用实现该接口的类的对象", 
+   "D:基类对象可以访问派生类的成员"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\" unchecked{    int val = 2147483647 * 2;}val的值?\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:4294967294", 
+   "B:-2", 
+   "C:编译错误", 
+   "D:运行时异常"
+  ]
+ }, 
+ {
+  "A_CONTENT": "泛型约束where T:class的意思？", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:类型参数必须是引用类型", 
+   "B:规定T必须是一个类", 
+   "C:规定T必须是一个接口", 
+   "D:以上说法都不对"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在C#程序中,为了给类型CompCS.SringComponent起一个别名CsStringComp,其正确的语法是().", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:using CsStringComp=CompCS.StringComponent;", 
+   "B:imports CsStringComp=CompCS.StringComponent;", 
+   "C:Alias CsStringComp=CompCS.StringComponent;", 
+   "D:Dim CompVB.StringComponent As CsStringComp"
+  ]
+ }, 
+ {
+  "A_CONTENT": "req是一个HttpWebRequset类型的变量。为了新建并用req连接互联网资源http://www.contoso.com./whatnew.asp的WebRequest 实例，应该使用以下哪个选项的语句?", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:req=\"http://www.contoso.com/whatnew.asp\";", 
+   "B:req=WebRequest.create(\"http://www.contoso.com/whatnew.asp\");", 
+   "C:req=new HttpWebRequest(\"http://www.contoso.com/whatnew.asp\");", 
+   "D:req=new HttpWebRequest()； req.connect(\"http://www.contoso.com/whatnew.asp\");"
+  ]
+ }, 
+ {
+  "A_CONTENT": "利用()服务,托管代码可以调用在动态链接库(DLL)(如Win32 API中的DLL)中实现的非托管函数.", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:运行库可调用包装", 
+   "B:平台调用", 
+   "C:COM可调用包装", 
+   "D:信道"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"string s1 = \"\"\"orange\"\"\";string s2 = \"\"\"red\"\"\";s1 += s2;s1.Substring(2, 5);System.Console.WriteLine(s1);输出时什么?\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:anger", 
+   "B:red", 
+   "C:orang", 
+   "D:orangered"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在C#中，多重继承可以通过什么实现？", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:接口", 
+   "B:抽象类", 
+   "C:属性", 
+   "D:方法"
+  ]
+ }, 
+ {
+  "A_CONTENT": "访问数据库时,使用连接模式同使用非连接模式相比有何优点？", 
+  "B_ANSWER": "A,B,D", 
+  "C_OPTIONS": [
+   "A:更易于控制和维护，更安全", 
+   "B:更容易进行并发控制", 
+   "C:可以为更多的用户同时提供数据", 
+   "D:数据实时性更好,及时刷新"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在一个类中，关于public、private、protected、internal说法错误的是？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:public：修饰的成员，可以被任何对象访问", 
+   "B:private：修饰的成员，可以在它的子类中被访问", 
+   "C:protected：修饰的成员，可以在它的子类中被访问", 
+   "D:internal：修饰的成员，可以被任何对象访问"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在.NET远程处理中，（）的类的实例可以跨应用程序域进行按值封送。 ", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:实现IobjectRefece接", 
+   "B:从Marshalbyrefobject类继", 
+   "C:具有[serializable]属性", 
+   "D:实现Iserializable接口"
+  ]
+ }, 
+ {
+  "A_CONTENT": "设计类SomeClass时,若希望字段Data只能被同一程序集的所有派生类访问,可将该字段的访问修饰符设为().", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:Pubic", 
+   "B:Private", 
+   "C:Protected", 
+   "D:Internal"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在使用FileStream 打开一个文件时,通过使用FileMode 枚举类型的_________成员,来指定操作系统打开一个现有文件并把文件读写指针定位在文件尾部.", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:Append附加", 
+   "B:Create", 
+   "C:CreateNew", 
+   "D:Truncate"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\" System.Console.WriteLine(@\"\"\"\\\\\\\\\"\"\"\"\"\"\"\"\"\"\");输出是?\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:\\\\\\\\\"", 
+   "B:\\\\\"", 
+   "C:\\\\\\\\\"\"\"", 
+   "D:\\\\\"\"\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"假设有3个文本框，TextBox1、TextBox2、TextBox3，其中TextBox3的值为空，TextBox1的值为8，TextBox2的值为10，则执行下面语句时候TextBox3的值为多少？TextBox3.Text = TextBox1.Text + TextBox2.Text\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:108", 
+   "B:18", 
+   "C:810", 
+   "D:异常"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"string strTmp = \"\"\"abcdefg我是谁\"\"\";int a = System.Text.Encodeing.Default.GetBytes(strTmp).Length;int b = strTmp.Length;请问a与b的值各是多少?\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:a=10,b=10", 
+   "B:a=20,b=10", 
+   "C:a=10,b=13", 
+   "D:a=13,b=10"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"public void add(ref int a){a++;}int main(){int a = 10; add(++a) Console.WriteLine(a);}请问输出是何值?\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:10", 
+   "B:11", 
+   "C:12", 
+   "D:13"
+  ]
+ }, 
+ {
+  "A_CONTENT": "         Console.WriteLine(DateTime.Now.ToString(\"yyyymmddhhmmss\"));(假设当前日期为：2013/01/22 17:11:22)", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:2.01301E+13", 
+   "B:2.01312E+12", 
+   "C:2.01301E+13", 
+   "D:2.01301E+11"
+  ]
+ }, 
+ {
+  "A_CONTENT": "x,y都是类SomeClass的变量.为了测试这两个变量是否引用同一个对象,应使用类SomeClass的下列那个方法进行判断", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:Tostring", 
+   "B:ReferenceEquals", 
+   "C:Equals", 
+   "D:GetHashCode"
+  ]
+ }, 
+ {
+  "A_CONTENT": "你正对一个应用程序进行调试，你需要找到引起异常的代码行。请问，Exception类中的那个属性能达到这个目的？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:Data", 
+   "B:Message", 
+   "C:StackTrace", 
+   "D:Source"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"class Class1{}class Class2{}Class1 class1 = new Class1();Class2 class2 = class1 as Class2;class2的实例是?\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:Class1", 
+   "B:Class2", 
+   "C:Null", 
+   "D:运行时异常"
+  ]
+ }, 
+ {
+  "A_CONTENT": "字符数组MyCharArray的定义和初始化如下。为了数组MyCharArray的所有元素值写入FileStream流，可创建（）类的实例对该流进行操作。 ", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:StreamWriter", 
+   "B:BinaryWriter", 
+   "C:TextWriter", 
+   "D:StringWriter"
+  ]
+ }, 
+ {
+  "A_CONTENT": "定义一个不定参函数，以下哪个定义正确?", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:public void Method(int a,...)", 
+   "B:public void Method(params object param,int a,)", 
+   "C:public void Method(params object[] param,int a)", 
+   "D:public void Method(int a,params object[] param)"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列数组初始化语句哪些是正确的？", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:int[] nums = new int[]{0,1,2,3,4};", 
+   "B:int[] nums2 = {0,1,2,3,4,5};", 
+   "C:int[][] num_1 = {new int[]{0,1},new int[]{0,1,2},new int[]{0,1,2,3}};", 
+   "D:int[][] num_2 = {{0,1},{0,1,2},{0,1,2,3}"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"int i = 10;try{    i = 30;    throw new ApplicationException();}catch (ApplicationException ex){    i = 40;}catch (Exception ex1){    i = 50;}\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:30", 
+   "B:40", 
+   "C:50", 
+   "D:编译出错"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列哪些方法可以在DataSet 对象ds 中添加一个名为“Customers”的DataTable 对象?", 
+  "B_ANSWER": "B,C,D", 
+  "C_OPTIONS": [
+   "A:DataTable dt_customers = new DataTable();", 
+   "B:DataTable dt_customers = new DataTable(\"Customers\");ds.Tables.Add(dt_customers);", 
+   "C:ds.Tables.Add(\"Customers\");", 
+   "D:ds.Tables.Add(new DataTable(\"Customers\");"
+  ]
+ }, 
+ {
+  "A_CONTENT": "C#中，一下的枚举定义正确的是？", 
+  "B_ANSWER": "A,B,C,D", 
+  "C_OPTIONS": [
+   "A:pubic enum var1 {Mike=100,Nike=102,Jike}", 
+   "B:pubic enum var1 {Mike=100,Nike,Jike}", 
+   "C:pubic enum var1 {Mike=-1,Nike,Jike}", 
+   "D:pubic enum var1 {Mike,Nike,Jike}"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在C#中,下列哪些语句可以创建一个具有3 个初始值为\"\"\"的元素的字符串数组？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:string StrList[3](\"\"\");", 
+   "B:string[3] StrList = {\"\"\",\"\"\",\"\"\"};", 
+   "C:string[] StrList = {\"\"\",\"\"\",\"\"\"};", 
+   "D:string[] StrList = new string[3];"
+  ]
+ }, 
+ {
+  "A_CONTENT": "什么是用于地址的逻辑目录名与服务器上的物理目录相对应，也可成为URL映射 ", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:目录", 
+   "B:虚拟目录", 
+   "C:IIS", 
+   "D:Web窗体"
+  ]
+ }, 
+ {
+  "A_CONTENT": "你正在开发一个自定义集合类型，你需要在你的类里创建一个方法而且能够保证你的方法的返回值是一个能够适合Foreach语句使用的类型。你应该如何实现你的方法?", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:方法返回一个集合", 
+   "B:方法必须返回一个Ienumerator或者Ienumerable", 
+   "C:方法必须返回一个IComparable"
+  ]
+ }, 
+ {
+  "A_CONTENT": "为了对一个类实现自定义的序列化，应使该类实现（）接口 ", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:IObjectReference", 
+   "B:ISerializable", 
+   "C:IDeserializationcallback", 
+   "D:Iformatter"
+  ]
+ }, 
+ {
+  "A_CONTENT": "当创建一个新类时,该类将从System.Object 基类继承下列哪些方法?", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:ToString", 
+   "B:ToObject", 
+   "C:Equals", 
+   "D:GetClassInfomation"
+  ]
+ }, 
+ {
+  "A_CONTENT": ".net垃圾收集器要求程序员编写托管程序时（）", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:为对象分配内存但在使用完毕后不必释放它", 
+   "B:为对象分配内存，在使用后必须释放它", 
+   "C:不为对象分配内存，且在使用后不必须释放它", 
+   "D:不为对象分配内存，且在使用后必须释放它"
+  ]
+ }, 
+ {
+  "A_CONTENT": "NET公共语言运行时的( )功能模块负责管理元数据以及加载、部署类。", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:类加载器", 
+   "B:代码管理器", 
+   "C:垃圾回收", 
+   "D:安全引擎"
+  ]
+ }, 
+ {
+  "A_CONTENT": "C#支持的循环有？", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:for", 
+   "B:foreach", 
+   "C:while", 
+   "D:for in"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\" public int aaa() {     int i = 10;      try     {         throw new Exception();     }     catch (Exception ex)     {         return 20;     }     finally     {                 i = 30;     }     return i; }int main(){test t = new test();Console.WriteLine(t.aaa());}输出时多少?\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:10", 
+   "B:20", 
+   "C:30", 
+   "D:都不对"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列关于C#异常处理描述，错误的是?", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:try块必须跟catch块组合使用,不能单独使用", 
+   "B:一个try块可以跟多个catch块", 
+   "C:使用throw语句可以引发系统异常，也可以引发自定义异常", 
+   "D:在try catch finally快中，finally块总是会被执行"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"int a = 10;a = a % 3;请问a的值是?\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:1", 
+   "B:2", 
+   "C:3", 
+   "D:4"
+  ]
+ }, 
+ {
+  "A_CONTENT": "类的声明中，若没有指定访问修饰符，那么默认的应该是什么?", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:public", 
+   "B:private", 
+   "C:protected", 
+   "D:internal"
+  ]
+ }, 
+ {
+  "A_CONTENT": "C#中，下列描述错误的是？", 
+  "B_ANSWER": "A,D", 
+  "C_OPTIONS": [
+   "A:类和接口都可以多重继承", 
+   "B:抽象类可以定义成员而接口不可以", 
+   "C:抽象类和接口都不可以实例化", 
+   "D:一个类可以有多个基类和实现多个接口"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"下列代码中，哪个是Teacher的属性？Public class Teacher{    int age = 13;    string name = \"\"\"\"\"\"\";    public string Name {        get {return name;}        set {name = value;}    }}\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:age", 
+   "B:name", 
+   "C:Name", 
+   "D:value"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在有100个线程并行运行的应用程序中,在当前的线程中执行的下列对整形变量I的值加1的语句中,哪条不会被其他线程打断?", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:I+=1", 
+   "B:I=I+1", 
+   "C:I++", 
+   "D:Interlocked.Increment(I)"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"double MyDouble = 123456789;Console.WriteLine(\"\"\"{0:E}\"\"\",MyDouble);输出是?\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:$123,456,789.00 ", 
+   "B:1.23E+08", 
+   "C:123,456,789.00", 
+   "D:123456789"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在定义类时,如果希望类的某个方法能够在派生类中进一步进行改进,以处理不同的派生类的需要,则应将该方法声明成?", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:sealed 方法 封闭类", 
+   "B:public 方法 公共类", 
+   "C:visual 方法 虚方法", 
+   "D:override 方法 重载基类"
+  ]
+ }, 
+ {
+  "A_CONTENT": "C#中,在方法MyFunc 内部的try..catch 语句中,如果在try 代码块中发生异常,并且在当前的所有catch 块中都没有找到合适的catch 块,则", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:.NET 运行时忽略该异常", 
+   "B:.NET 运行时马上强制退出该程序", 
+   "C:.NET 运行时继续在MyFunc 的调用堆栈中查找提供该异常处理的过程", 
+   "D:.NET 抛出一个新的\"异常处理未找到\"的异常"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"接口Animal 定义如下:public interface Animal{void Move();}则下列抽象类的定义中,哪些是不合法的？\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:abstract class Cat: Animal{abstract public void Move();}", 
+   "B:abstract class Cat: Animal{virtual public void Move(){Console.Write(Console.Write(\"Move!\");)}}", 
+   "C:abstract class Cat: Animal{public void Move(){Console.Write(Console.Write(\"Move!\");)};}", 
+   "D:abstract class Cat: Animal{public void Eat(){Console.Write(Console.Write(\"Eat!\");)};}"
+  ]
+ }, 
+ {
+  "A_CONTENT": "你正在创建一个使用非托管资源的类。这个类引用了使用托管资源的对象。你需要确保使用这个类的用户在不需要类实例的时候能够够释放资源。你应该做哪三个工作?", 
+  "B_ANSWER": "B,D,F", 
+  "C_OPTIONS": [
+   "A:定义一个从WeakReference继承的类", 
+   "B:定义一个实现IDisposable接口的类", 
+   "C:创建一个类析构函数，调用其它对象的方法去释放托管资源", 
+   "D:创建一个类析构函数，释放非托管资源", 
+   "E:创建一个Dispose方法，调用System.GC.Collect强制垃圾回收", 
+   "F:创建一个Dispose方法，释放非托管资源并且调用其它对象的方法释放托管资源"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"int a = 10;double d = a;以上对方发生了一次怎样的类型装换?\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:显示类型装换", 
+   "B:隐式类型装换", 
+   "C:数据类型装换", 
+   "D:强制类型装换"
+  ]
+ }, 
+ {
+  "A_CONTENT": "你正在开发一个实现电子问卷的应用。问卷共有25个答案为true或false的问题。你需要完成如下任务：1）初始化每个问题答案为true；2）每个问题答案使用最小的内存。你应该选择使用那钟方式进行存储答案?", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:BitVector32 answers=new BitVector32(1);", 
+   "B:BitVector32 answers=new BitVector32(-1);", 
+   "C:BitArray answers=new BitArray(1);", 
+   "D:BitArray answers=new BitArray(-1);"
+  ]
+ }, 
+ {
+  "A_CONTENT": "泛型类创建类型的新实例时，需要添加那种泛型约束?", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:T：结构", 
+   "B:T：类", 
+   "C:T：U", 
+   "D:T：new()"
+  ]
+ }, 
+ {
+  "A_CONTENT": "用以下语句定义了一个委托类型DoSomething：delegate void DoSomething();     则类someclass中的下列哪些方法可以关联到该委托的实例？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:static int getNameLength(string name )", 
+   "B:void showName(string name )", 
+   "C:int getAge()", 
+   "D:void work()"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下哪个是可变长数组？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:Array", 
+   "B:string[]", 
+   "C:string[N]", 
+   "D:ArrayList"
+  ]
+ }, 
+ {
+  "A_CONTENT": "你需要写一个代码段，从一个流变量stream1截取开始的80个字节到一个新的字节数组byteArray中。你同时也需要保证代码段把截取的字节数保存到一个整型变量bytesTransferred中，你应该使用下面那个代码段?", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:bytesTransferred=stream1.Read(byteArray,0,80);", 
+   "B:for(inti=0;i<80;i++){stream1.WriteByte(byteArray[i]);bytesTransferred=i;if(!stream1.CanWrite){break;}}", 
+   "C:while(bytesTransferred<80){stream1.Seek(1,SeekOrigin.Current);byteArray[bytesTransferred++]=Convert.ToByte(stream1.ReadByte());}", 
+   "D:stream1.Write(byteArray,0,80);bytesTransferred=byteArray.Length;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\" int i = 10; if (i>10 && ++i < 10);System.Console.WriteLine(i);输入时多少?\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:10", 
+   "B:11", 
+   "C:0", 
+   "D:1"
+  ]
+ }, 
+ {
+  "A_CONTENT": "DataAdapter 对象的DeleteCommand 的属性值为null将造成", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:程序编译错误", 
+   "B:DataAdapter 在处理DataSet 中被删除的行时,这些行将被跳过不处理", 
+   "C:DataAdapter 在处理DataSet 中被删除的行时,将引发异常", 
+   "D:DataAdapter 在处理DataSet 中被删除的行时,将出现对话框询问用户如何处理该行"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在托管环境中创建线程后，调用Start之前该线程处于（）状态 ", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:Unstarted", 
+   "B:Running", 
+   "C:Waitsleep", 
+   "D:Stopped"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在ADO.NET中,为确保DataAdapter对象能正确地将数据从数据源添充到DataSet中，则必须事先设置好DataAdapter对象的下列哪个Command属性?", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:SELECT COMMAND", 
+   "B:INSERT COMMAND", 
+   "C:UPDATE COMMAND", 
+   "D:DELETE COMMAND"
+  ]
+ }, 
+ {
+  "A_CONTENT": "如何创建一个在运行时初始化的常数值?", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:使用const关键字", 
+   "B:使用extern关键字", 
+   "C:使用static关键字", 
+   "D:使用readonly关键字"
+  ]
+ }, 
+ {
+  "A_CONTENT": "ADO.NET使用()命名空间的类访问SQL Server数据库中的数据 ", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:System.IO", 
+   "B:System.Xml.Serialization", 
+   "C:System.Data.SqlClient", 
+   "D:System.data.OleDb"
+  ]
+ }, 
+ {
+  "A_CONTENT": "类的函数声明中，若没有指定访问修饰符，那么默认的应该是什么?", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:public", 
+   "B:private", 
+   "C:protected", 
+   "D:internal"
+  ]
+ }, 
+ {
+  "A_CONTENT": "使用Visual Studio .NET 的\"新建C# 项目\"创建一个名为\"SimpleForm\"的Windows 表单应用程序,则在生成什么文件中可设置该程序集的Copyright、Trademark 等属性信息", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:Form1.resx", 
+   "B:SimpleForm.sln", 
+   "C:SimpleForm.csproj", 
+   "D:AssemblyInfo.cs"
+  ]
+ }, 
+ {
+  "A_CONTENT": "文件操作必须声明哪个命名空间?", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:System", 
+   "B:System.Data", 
+   "C:System.IO", 
+   "D:System.File"
+  ]
+ }, 
+ {
+  "A_CONTENT": "应用ADO.NET 访问数据时,Connection 对象的连接字符串中Initial Catalog 子串的含义是?", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:Connection 对象连接到的数据库的名称", 
+   "B:Connection 对象的身份验证信息", 
+   "C:Connection 对象的最大连接时间", 
+   "D:Connection 对象使用的缓存大小"
+  ]
+ }, 
+ {
+  "A_CONTENT": "C#中，以下哪些是引用类型？", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:int", 
+   "B:string", 
+   "C:enum", 
+   "D:delegate"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"struct TheStruct{    public string willIChange;}class TestClass{    static void StructTaker(TheStruct s)    {        s.willIChange = \"\"\"Changed\"\"\";    }    static void Main()    {        TheStruct testStruct = new TheStruct();        testStruct.willIChange = \"\"\"Not Changed\"\"\";        StructTaker(testStruct);        System.Console.WriteLine(testStruct.willIChange);    }}输出是什么?\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:Not Changed", 
+   "B:Changed", 
+   "C:Null", 
+   "D:空白"
+  ]
+ }, 
+ {
+  "A_CONTENT": "你的应用程序有两个线程，ThreadA ThreadB，有这样一个需求，只有当ThreadA执行完毕后，才开始执行ThreadB，你该如何实现?", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:设置ThreadB运行在低优先级下", 
+   "B:设置ThreadA运行在高优先级下", 
+   "C:使用WaitCallBack代理去同步线程", 
+   "D:调用ThreadB的sleep方法"
+  ]
+ }, 
+ {
+  "A_CONTENT": "修饰一个不可继承的类，应使用哪个关键字?", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:unsafe", 
+   "B:readonly", 
+   "C:explicit", 
+   "D:sealed"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"下列语句创建了多少个string 对象？string[,] strArray = new string[3,4];\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:0", 
+   "B:3", 
+   "C:4", 
+   "D:12"
+  ]
+ }, 
+ {
+  "A_CONTENT": "如何遍历一个集合类型？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:for", 
+   "B:while", 
+   "C:foreach", 
+   "D:do while"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"class TheClass{    public string willIChange;}class TestClass{    static void ClassTaker(TheClass c)    {        c.willIChange = \"\"\"Changed\"\"\";    }    static void Main()    {        TheClass testClass = new TheClass();        testClass.willIChange = \"\"\"Not Changed\"\"\";        ClassTaker(testClass);        System.Console.WriteLine(testClass.willIChange);    }}输出是什么?\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:Not Changed", 
+   "B:Changed", 
+   "C:Null", 
+   "D:空白"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"class test{        public static readonly int i = 20;        static test() {            i = 30;         }        public test()        {                    }}int main(){   System.Console.WriteLine(test.i);}\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:20", 
+   "B:30", 
+   "C:40", 
+   "D:编译错误"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"下列程序中,DllImport属性的用法是否正确 public class Test [DllImport(\"\"\"kernel32.dll\"\"\",EntryPoint=\"\"\"movefilew\"\"\",CharSet=CharSet.Ansi)] public int movefile(string src ,string dst);\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:错误", 
+   "B:正确"
+  ]
+ }, 
+ {
+  "A_CONTENT": "为了将使用.NET托管环境编写的类供老式的COM客户端调用,可使用()工具创建一个COM客户端可以访问的代理", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:RCW", 
+   "B:SN.EXE", 
+   "C:TLBEXP.EXE", 
+   "D:TLBIMP.EXE"
+  ]
+ }, 
+ {
+  "A_CONTENT": "已知变量resp为WebRequest类型，且引用的WebRequest实例。请问下列语句得到的流reqsrm是何种类型?", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:只写", 
+   "B:只读", 
+   "C:可读可写"
+  ]
+ }, 
+ {
+  "A_CONTENT": "画面中有一个年龄的文本框txtAge，下面的哪些写法可以获得文本框的年龄值", 
+  "B_ANSWER": "C,D", 
+  "C_OPTIONS": [
+   "A:int iAge = txtAge;", 
+   "B:int iAge = txtAge.Text;", 
+   "C:int iAge = Convert.ToInt32(txtAge.Text);", 
+   "D:int iAge = int.parse(txtAge.Text);"
+  ]
+ }, 
+ {
+  "A_CONTENT": "有两个正在运行的线程A,B.为了将线程B暂停200秒,可以()", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:在线程B中调用B.Sleep(200000)", 
+   "B:在线程B中调用B.Sleep(200)", 
+   "C:在线程A中调用B.Sleep(200000)", 
+   "D:在线程A中调用B.Sleep(200)"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在ADO.NET中通过执行Command对象ExecuteReader方法返回的Retareder对象是一种（ ）", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:可向前向后的只读结果集", 
+   "B:可向前的可读可写的结果集", 
+   "C:可向前向后的可读可写的结果集", 
+   "D:可向前的只读的结果集"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在编写ASP.NET页面时,若希望在每次页面载入时执行某个操作,则应将相应代码写入( )事件处理程序中.", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:页面的Prerender", 
+   "B:页面的Init", 
+   "C:页面的Disposed消息", 
+   "D:页面的页面的页面的页面的Load"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"int? a = null;int b = a ?? -1;b的值是多少?\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:-1", 
+   "B:null", 
+   "C:编译出错", 
+   "D:运行时异常"
+  ]
+ }, 
+ {
+  "A_CONTENT": "为了提高性能在使用DataAdapter 填充DataSet 前可以将什么属性值设为false.", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:DataSet 对象的EnforceConstraints", 
+   "B:DataSet 对象的CaseSensitive", 
+   "C:DataAdapter 对象的AcceptChangesDuringFill", 
+   "D:DataAdapter 对象的MissingSchemaAction"
+  ]
+ }, 
+ {
+  "A_CONTENT": "目前在ADO.NET 中可以使用与下列哪些数据源相关的DataAdapter?", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:SQL Server .NET 数据源", 
+   "B:OLE DB .NET 数据源", 
+   "C:XML 文件", 
+   "D:ODBC .NET 数据源"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"class MainClass{    static void Main()     {        int a = 1000;        a <<= 4;        Console.WriteLine(a);    }}输出时多少?\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:1000", 
+   "B:4", 
+   "C:17000", 
+   "D:16000"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在使用ASP.NET开发的WEB服务时,WEB服务类必须派生自", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:System.Runtime.Remoting.Soap.SoapFormatter", 
+   "B:System.Seb.Services Service", 
+   "C:System.Web.Services.WebServise", 
+   "D:System.Web.WebService"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"根据以下两个条件确定一个类型：1、是一个数字2、不大于65535\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:System.UInt16", 
+   "B:int", 
+   "C:uint", 
+   "D:short"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"for(int a = 30;a >= 10; a=a-3)循环执行了几次?\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:5", 
+   "B:6", 
+   "C:7", 
+   "D:8"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"请问下列枚举类型MyEnum的定义是否合法？ enum SomeEnum:System.Char {one='1',        two='2',        three='3',        four='4'       } \"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:合法", 
+   "B:不合法"
+  ]
+ }, 
+ {
+  "A_CONTENT": "委托定义的关键字?", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:volatile", 
+   "B:delegate", 
+   "C:stackalloc", 
+   "D:operator"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\" try {     i = 30;     throw new Exception(); } catch (Exception) {     i = 40; } finally {     i = 50; } System.Console.WriteLine(i);\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:30", 
+   "B:40", 
+   "C:50", 
+   "D:编译出错"
+  ]
+ }, 
+ {
+  "A_CONTENT": "用户自定义异常需要从哪个类中派生出来?", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:ApplicationException", 
+   "B:CustomException", 
+   "C:BaseException", 
+   "D:Exception"
+  ]
+ }, 
+ {
+  "A_CONTENT": "你正在开发一个从应用目录动态的装入程序集的应用。你需要写一段代码去动态的装入Company1.dll程序集到当前的应用执行域中。你应该使用下面那段代码?", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:AppDomain domain=AppDomain.CurrentDomain;stringmyPath=Path.Combine(domain.BaseDirectory,\"Company1.dll\");Assembly asm=Assembly.LoadFrom(myPath);", 
+   "B:AppDomain domain=AppDomain.CurrentDomain;stringmyPath=Path.Combine(domain.BaseDirectory,\"Company1.dll\");Assembly asm=Assembly.Load(myPath);", 
+   "C:AppDomain domain=AppDomain.CurrentDomain;stringmyPath=Path.Combine(domain.DynamicDirectory,\"Company1.dll\");Assembly asm=AppDomain.CurrentDomain.Load(myPath);", 
+   "D:AppDomain domain=AppDomain.CurrentDomain;Assembly asm=domain.GetData(\"Company1.dll\");"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在.NET中所有类的基类是?", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:Form", 
+   "B:System", 
+   "C:Type", 
+   "D:Object"
+  ]
+ }, 
+ {
+  "A_CONTENT": "写一个返回值为ArrayList的对象al的方法，你必须保证对于ArrayList的修改是线程安全的，你应该使用以下那一段代码?", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:ArrayList al = new ArrayList; lock(al.SyncRoot){return al;}", 
+   "B:ArrayList al = new ArrayList; lock(al.SyncRoot.GetType()){return al;}", 
+   "C:ArrayList al = new ArrayList; Monitor.Enter(al);Monitor.Exit(al);return al;", 
+   "D:ArrayList al = new ArrayList; ArrayList sync_al = ArrayList.Synchronized(al);return sync_al;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "为了在多线程之间使用共享资源可以使用", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:Mutex对象", 
+   "B:Monitor对象", 
+   "C:AutoResetevent对象", 
+   "D:ManualResetEvent对象"
+  ]
+ }, 
+ {
+  "A_CONTENT": "某程序使用system.Net访问Internet资源时返回webException,其status值等于system.net.webexceptionstatus.connectionclosed.该错误代码表明：", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:连接被过早关闭", 
+   "B:在传输层上不能连接远程服务", 
+   "C:请示被取消", 
+   "D:未能将完整的请求发送到远程服务器"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"当执行：FileStream fs = File.Create(@\"\"\"c:\\aaa.txt\"\"\");如果c:\\aaa.txt已经存在,该语句如何处理?\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:创建文件，并覆盖现有文件", 
+   "B:仅仅打开文件", 
+   "C:不创建文件，也不抛出异常", 
+   "D:抛出异常"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"#if false    Console.WriteLine(\"\"\"Debug version\"\"\");#endif\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:上述代码编译，并执行", 
+   "B:上述代码编译，但不执行", 
+   "C:上述代码不编译", 
+   "D:以上都说法都不正确"
+  ]
+ }, 
+ {
+  "A_CONTENT": "myformatter是一个引用soapformatter对象的变量。stream是一个打开的可写的文件流。请问将可序列化对象obj写入流正确代码是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:stream+=myformatter.serialize(obj)", 
+   "B:myformatter.serialize(stream.write(obj))", 
+   "C:myformatter.serialize(stream,obj)", 
+   "D:stream.write(myformatter.serialize(obj))"
+  ]
+ }, 
+ {
+  "A_CONTENT": "为了在程序中是用DataSet类，应该在文件的开始处添加相应的命名空间的引用：", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:System.IO", 
+   "B:System.Utils", 
+   "C:System.DataBase", 
+   "D:System.Data"
+  ]
+ }, 
+ {
+  "A_CONTENT": "C#中导入命名空间的关键字?", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:using", 
+   "B:use", 
+   "C:import", 
+   "D:include"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在使用ADO.NET编写连接到SQLServer2000数据库的应用程序时,从提高性能角度考虑,应创建( )类的对象,并调用其open方法连接到数据库. ", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:SqlConnection", 
+   "B:OledbConnection", 
+   "C:Connection", 
+   "D:OdbcConnection"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"已知在某Windows Form 应用程序中,主窗口类为Form1, 程序入口为静态方法From1.Main.如下所示:public class Form1 : System.Windows.Forms.Form{//其他代码static void Main(){//在此添加合适代码}}则在Main 方法中打开主窗口的正确代码是:\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:Application.Run(new Form1());", 
+   "B:Application.Open(new Form1());", 
+   "C:(new Form1()).Open();", 
+   "D:(new Form1()).Run();"
+  ]
+ }, 
+ {
+  "A_CONTENT": "( )是.NET类型中唯一没有继承System.object的类型", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:类", 
+   "B:结构", 
+   "C:枚举", 
+   "D:接口"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在发送请求之前，如果将HttpWebRequest对象的AllowAutoredirect属性设为（），客户端应用程序将在遇到服务器重定向指示时得到HTTP错误代码。", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:TRUE", 
+   "B:FALSE"
+  ]
+ }, 
+ {
+  "A_CONTENT": "你正在开发一个在字符串中查找子串的方法。这个方法将被本地化为日本区域。你的方法接收如下参数：被查询的字符串searchList，要查找的字符串searchValue。你应该使用下面那个代码段?", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:return searchList.IndexOf(searchValue);", 
+   "B:CompareInfo comparer=new CultureInfo(\"ja-JP\").CompareInfo;return comparer.Compare(searchList,searchValue);", 
+   "C:CultureInfo Comparer=new CultureInfo(\"ja-JP\");if(searchList.IndexOf(searchValue)>0){return true;}else{return false;}", 
+   "D:CompareInfo comparer=new CultureInfo(\"ja-JP\").CompareInfo;if(comparer.IndexOf(searchList,searchValue)>0){return true;}else{return false;}"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\" System.Console.WriteLine(\"\"\"\\\\\\\\\\\"\"\"\"\"\"\");输出是?\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:\\\\\\\\\"", 
+   "B:\\\\\"", 
+   "C:\\\\\\\\\"\"\"", 
+   "D:\\\\\"\"\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "在ADO.NET中,使用DataAdapter将数据填充到DataSet,应用下列 哪个方法 ( )", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:DataAdapter对象的Update方法", 
+   "B:DataSet对象的Fill方法", 
+   "C:DataSet对象Update方法", 
+   "D:DataAdapter对象Fill方法"
+  ]
+ }, 
+ {
+  "A_CONTENT": "你正在开发一个将执行数学计算的应用。你需要确保应用能够同时的执行多个计算。你应该怎么做?", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:设置ProcessThread对象的IdealProcessor属性", 
+   "B:设置ProcessThread对象的ProcessorAffinity属性", 
+   "C:使用foreach进行计算；调用ThreadPool的QueueUserWorkItem方法", 
+   "D:设置Process.GetCurrentProcess().BasePriority为High"
+  ]
+ }, 
+ {
+  "A_CONTENT": "C#索引器的描述错误的是？", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:允许调用对象上的方法，如同对象是一个数组。", 
+   "B:可以为静态成员或实例成员。", 
+   "C:索引器的 get 访问器具有与索引器相同的形参表。", 
+   "D:可通过简单的名称进行访问。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "类SomeClass中使用了非内存资源。为了保证对对象所引用的非内存资源在对象不用后可以快速地释放，在下列资源管理方案中，比较合适的方法是（）", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:重载delete运算符", 
+   "B:实现析构方法", 
+   "C:实现Finalize方法", 
+   "D:实现Dispose方法"
+  ]
+ }, 
+ {
+  "A_CONTENT": "system.GC命名空间中，强制立即进行垃圾回收的方法是?", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:uppressFinalize", 
+   "B:WaitforPendingfinalizers", 
+   "C:Collect", 
+   "D:ReRegisterforfinalize"
+  ]
+ }, 
+ {
+  "A_CONTENT": "重写父类方法时，是用的关键字？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:overload", 
+   "B:override", 
+   "C:abstract", 
+   "D:delegate"
+  ]
+ }, 
+ {
+  "A_CONTENT": "你正在创建一个存储数据修改的撤销缓冲区（undobuffer）。你需要保证撤销功能首先撤销最近的数据修改，而且撤销缓冲区只允许存储字符串。你应该使用下面那段代码实现?", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:Stack<string> undoBuffer=new Stack<string>();", 
+   "B:Stack undoBuffer=new Stack();", 
+   "C:Queue<string> undoBuffer=new Queue<string>();", 
+   "D:Queue undoBuffer=new Queue()"
+  ]
+ }, 
+ {
+  "A_CONTENT": "DataView 对象的特性有?", 
+  "B_ANSWER": "A,D", 
+  "C_OPTIONS": [
+   "A:DataView 只能访问单个 DataTable 表", 
+   "B:DataView 可以作为连接两个相关表的手段", 
+   "C:DataView 不能进行排序", 
+   "D:DataView 可以根据记录的版本、状态进行筛选"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在.NET远程处理中，（）的类的实例可以跨应用程序域进行按引用封送。", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:具有[serializable属性", 
+   "B:实现Iserializable接口", 
+   "C:实现IobjectReference接", 
+   "D:从MarshalbyRefobject类继承"
+  ]
+ }, 
+ {
+  "A_CONTENT": "面向对象的3个基本原则", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:抽象 继承 派生", 
+   "B:类 对象 方法", 
+   "C:封装 继承 多态", 
+   "D:对象 属性 方法"
+  ]
+ }, 
+ {
+  "A_CONTENT": "你使用反射来获得方法MyMethod的信息，你需要获取MyMethod方法是否在派生类中可以访问，你应该如何做?", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:访问MethodInfo的IsAssembly属性", 
+   "B:访问MethodInfo的IsVirtual属性", 
+   "C:访问MethodInfo的IsStatic属性", 
+   "D:访问MethodInfo的IsFramily属性"
+  ]
+ }, 
+ {
+  "A_CONTENT": "为了考察计算机中垃圾回收的信息，在该计算机的性能监控工具（Perfmon.exe）中应监视（）对象的计数?", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:.NET CLR Memory", 
+   "B:.NET CLR Data", 
+   "C:.NET CLR JIT", 
+   "D:.NET CLR Loading"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在.NET远程处理框架中，TCP信道的默认格式化程序为", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:Httpformatter", 
+   "B:Binaryformatter", 
+   "C:TcpFormatter", 
+   "D:Soapformatter"
+  ]
+ }, 
+ {
+  "A_CONTENT": "如何定义一个可为空的int类型", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:System.Int32", 
+   "B:int?", 
+   "C:C#不支持"
+  ]
+ }, 
+ {
+  "A_CONTENT": "你需要选择一个类。它基于Key实现了小集合和大集合的优化。你应该选择下面那一个类?", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:OrderedDictionary", 
+   "B:HybridDictionary", 
+   "C:ListDictionary", 
+   "D:Hashtable"
+  ]
+ }, 
+ {
+  "A_CONTENT": "类通过实现（）接口，来对他的对象支持显式资源管理。", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:IDisposable", 
+   "B:IDispose", 
+   "C:IList", 
+   "D:IEnumerable"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在用c#编写的控制台程序中创建并访问一个兼容STA的com组件时，为提高性能，应该为程序入口main方法设置()属性", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:[Apartment]", 
+   "B:[synchronization]", 
+   "C:[STAThread]", 
+   "D:[MTAThred]"
+  ]
+ }, 
+ {
+  "A_CONTENT": "类SomeClass的静态事件MouseClicked为MouseClickedEventListener类型。 obj为另一个类OthersClass的实例；请问如何将obj.dojob()方法从事件MouseClicked的调用列表中移除?", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:RemoveHandler AddressOf Obj.DoJob from SomeClass.MouseClicked", 
+   "B:SomeClass.MouseClicked-=new MouseClickedEventListener(Obj.DoJob)", 
+   "C:SomeClass.MouseClicked.Remove(Obj.DoJob)", 
+   "D:RemoveHandler SomeClass.MouseClicked =  new MouseClickedListener(AddressOf Obj.DoJob)"
+  ]
+ }
+]

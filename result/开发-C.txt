@@ -1,0 +1,920 @@
+[
+ {
+  "A_CONTENT": "char *str = \"\"\"12345\"\"\";printf(\"\"\"%c %c %c \\n\"\"\", *str, *(str++), *(str++));的输出应该是？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A)1 2 3", 
+   "B:B)3 2 1", 
+   "C:C)1 1 1", 
+   "D:D)1 2 2 "
+  ]
+ }, 
+ {
+  "A_CONTENT": "struct slot __attribute__((align(64)))的含义是", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:A) slot 结构体的大小是64字节", 
+   "B:B) slot结构体大小是64的倍数", 
+   "C:C) 访问slot成员变量时，cache命中率高", 
+   "D:D) 访问slot成员变量时，都在cache中"
+  ]
+ }, 
+ {
+  "A_CONTENT": "关于虚函数，正确的描述是（ ? )", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A) 构造函数不能是虚函数 ", 
+   "B:B) 析构函数不能是虚函数", 
+   "C:C) 虚函数可以是友元函数 ", 
+   "D:D) 虚函数可以是静态成员函数"
+  ]
+ }, 
+ {
+  "A_CONTENT": "RS232 TTL输出显示乱码，有可能的错误原因是？", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:A)GND接触不良", 
+   "B:B)TX，RX接反", 
+   "C:C)输出TX电压不足", 
+   "D:D)输出RX电压不足"
+  ]
+ }, 
+ {
+  "A_CONTENT": "设有定义：int k=0;,以下选项的四个表达式中与其他三个表达式的值不相同的是 ", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A)k++ ", 
+   "B:B)k+=1 ", 
+   "C:C)++k ", 
+   "D:D)k+1"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下属于单元测试的概念", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A) 当测试对象依赖无法工作时，需要解耦", 
+   "B:B) 单元测试为了证明执行结果是对的", 
+   "C:C）单元测试的测试对象是方法", 
+   "D:D）单元测试是白盒测试的一种"
+  ]
+ }, 
+ {
+  "A_CONTENT": "函数欲实现交换x和y的值，且通过正确调用返回交换结果，下列选项中能实现这一功能的有（ )。 ", 
+  "B_ANSWER": "C,D", 
+  "C_OPTIONS": [
+   "A:A)void funa（int *x, int *y)   {      int *p;       *p = *x; *x = *y; *y = *p;   } ", 
+   "B:B)void funb（int *x, int *y)     {    int *p;       p = x; x = y; y = p;}   ", 
+   "C:C)void func（int *x, int *y)   { int p;       p = *x; *x = *y; *y = p;}  ", 
+   "D:D)void fund（int *x, int *y){     *x ^=  *y; *y ^= *x; *x ^= *y;   "
+  ]
+ }, 
+ {
+  "A_CONTENT": "假设OneClass为一个类，则该类的拷贝初始化构造函数的声明语句为？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A) OneClass(OneClass p);             ", 
+   "B:B) OneClass& (OneClass p); ", 
+   "C:C) OneClass(OneClass & p);          ", 
+   "D:D) OneClass (OneClass *p)"
+  ]
+ }, 
+ {
+  "A_CONTENT": "客户的原理图中有两个，一个是核心板的，一个是载板的，通过金手指连接，但是两部分不是一个团队设计的，研发人员在进行管脚对应时（即核心板管脚对应到载板管脚)应该根据", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、原理图中的管脚逻辑名称进行对应", 
+   "B:B、原理图中的管脚号进行对应", 
+   "C:C、无法确定，只能联系客户的相关人员确定", 
+   "D:D、逐个管脚进行分析"
+  ]
+ }, 
+ {
+  "A_CONTENT": "考虑函数原型void test(int a,int b=7,char=\"*\"),下面的函数调用中，属于不合法调用的是（？）", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A)test(5); ", 
+   "B:B)test(5,8); ", 
+   "C:C)test(6,\"#\") ", 
+   "D:D)test(0,0.\"*\")"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在结构化程序设计中，模块划分的原则是 ", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A)各模块应包括尽量多的功能", 
+   "B:B)各模块的规模应尽量大", 
+   "C:C)各模块之间的联系应尽量紧密", 
+   "D:D)模块内具有高内聚度、模块间具有低耦合度"
+  ]
+ }, 
+ {
+  "A_CONTENT": "C++ 调用C的说法中，那个正确", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:A、C，C++可以互相调用，但C只能调用C++的静态方法", 
+   "B:B、C,C++可以互相调用，C传参是从左边到右边入栈，C++正好想法", 
+   "C:C、C,C++可以互相调用，但C方法必须加extern \"C\" 前缀", 
+   "D:D、C，C++ 可以互相调用，但只能C++调用C，反之不行"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"In a 32 bits platform char c[] = “123456”;sizeof(c) = ______ \"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、6", 
+   "B:B、4", 
+   "C:C、7", 
+   "D:D、1"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"请写出如下程序的输出:______  int a = 3;int b = 0;while( a || b++)  a--;printf(“%d\\n”, b);\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、0", 
+   "B:B、1", 
+   "C:C、2", 
+   "D:D、3"
+  ]
+ }, 
+ {
+  "A_CONTENT": "NAPI 是 Linux 上采用的一种提高网络处理效率的技术，它的核心概念就是不采用中断的方式读取数据，而代之以首先采用中断唤醒数据接收的服务程序，然后 POLL 的方法来轮询数据，那么该方法的起因是什么？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A) Linux网卡驱动的中断处理效率不如轮询模式", 
+   "B:B) 大数据包传输时，中断处理效率不如轮询模式", 
+   "C:C) 小数据包传输时，中断处理效率不如轮询模式", 
+   "D:D) 大量数据包传输时，中断处理效率不如轮询模式"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"#define DEF_NAME(type) type##_class#define OUTPUT(EXP)  #EXPprintf(\"\"\"exp is %s\"\"\",OUTPUT(DEF_NAME(data));\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A、exp is DEF_NAME(data)", 
+   "B:B、exp is data_class", 
+   "C:C、exp is type_class", 
+   "D:D、exp is DEF_NAME(type)"
+  ]
+ }, 
+ {
+  "A_CONTENT": "嵌入式系统中产生看门狗中断的是(？)。 ", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A)软件喂狗 ", 
+   "B:B)处理器温度过高 ", 
+   "C:C)应用产生异常 ", 
+   "D:D)看门狗定时器超时"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"int bb = 0x12345678;在littleEndian，BigEndian系统中，内存里从LSB(low)到MSB(high),排列顺序是：\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、12345678,87654321", 
+   "B:B、87654321,12345678", 
+   "C:C、78563412，12345678", 
+   "D:D、78563412,21436587  "
+  ]
+ }, 
+ {
+  "A_CONTENT": "C++ 类体系中，不能被派生类继承的有（？）", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A) 转换函数  ", 
+   "B:B) 构造函数  ", 
+   "C:C) 虚函数  ", 
+   "D:D) 静态成员函数"
+  ]
+ }, 
+ {
+  "A_CONTENT": "将类A所有构造函数的可访问性都限制为私有的，那么正确的说法？", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:A) 类A可以被实例化", 
+   "B:B) 类A不可以被实例化", 
+   "C:C) 可以new实例化对象，但不可以直接定义实例化对象", 
+   "D:D) 可以调用静态类方法"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"Please write the result of the following program int a, b, c, d;a = 10;b = a++;c = ++a;d = 10*a++;printf(\"\"\"%d, %d, %d, %d\\n\"\"\", a, b, c, d);________________________________________\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、10,10,12,120", 
+   "B:B、11,11,12,120", 
+   "C:C、13,10,12,120", 
+   "D:D、13,11,12,130"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"32bit系统，有如下代码，在linux先gcc -o test test.c 编译 ，那个说法更对test.cvoid main(void){#define MAX 128 unsigned char array[MAX]; char index = 0; while(index < MAX) {     array[index]=index；     printf(\"\"\"%c\\n\"\"\",array[index]);     index++; }}\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、编译没有warning，可以运行", 
+   "B:B、编译有warning，但运行有问题", 
+   "C:C、编译有warning，但运行没有问题", 
+   "D:D、编译没有wanrning，但运行有问题"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下函数获得的是连续物理地址空间的是", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:A、alloc_pages", 
+   "B:B、__get_free_pages", 
+   "C:C、kmalloc", 
+   "D:D、vmalloc  "
+  ]
+ }, 
+ {
+  "A_CONTENT": "Linux常规内存和高端内存的区别有", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:A、常规内存在系统启动后，已经进行了地址映射，高端内存没有", 
+   "B:B、常规内核和高端内存在系统启动后，地址都没有进行映射", 
+   "C:C、常规内存物理地址和虚拟地址的对应关系有一固定差值", 
+   "D:D、常规内存和高端内存物理地址和虚拟地址的对应关系都不存在一固定差值之说"
+  ]
+ }, 
+ {
+  "A_CONTENT": "中断向量可提供__？___。 ", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A）被选中设备的地址；  ", 
+   "B:B）传送数据的起始地址； ", 
+   "C:C）中断服务程序入口地址；", 
+   "D:D）主程序的断点地址"
+  ]
+ }, 
+ {
+  "A_CONTENT": "arm-linux中，在内核启动刚开始，printk函数不能用的时候，如何调试", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:A、有更底层的打印函数代替printk", 
+   "B:B、无法调试，不过一般不会有问题", 
+   "C:C、可以使用printascii函数进行打印", 
+   "D:D、串口驱动没有加载，printascii也不能用"
+  ]
+ }, 
+ {
+  "A_CONTENT": "linux系统注册的中断信息，比如中断号在哪个文件中可以查询", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、/proc/irqs", 
+   "B:B、/proc/interrupts", 
+   "C:C、/proc/stats", 
+   "D:D、/proc/devices"
+  ]
+ }, 
+ {
+  "A_CONTENT": "sizeof 的说法正确是", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:A) sizeof是函数", 
+   "B:B) sizeof是算式", 
+   "C:C) sizeof的值在运行时确定的", 
+   "D:D)sizeof的值在编译时确定的"
+  ]
+ }, 
+ {
+  "A_CONTENT": "如何避免内存泄露？", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:A) 利用第三方工具差错，比如valgrind", 
+   "B:B）利用内存池概念，封装或重载系统内存申请函数", 
+   "C:C）利用RAII原则，设计框架", 
+   "D:D）避免使用malloc，new等系统函数"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"某32位系统, 参见以下结构体定义：typedef struct{  char a;  long b;  short c;}data;sizeof(data) = ______\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A)10", 
+   "B:B)7", 
+   "C:C)12", 
+   "D:D)8"
+  ]
+ }, 
+ {
+  "A_CONTENT": "vector::iterator重载了下面哪些运算符？ ", 
+  "B_ANSWER": "A,C,D", 
+  "C_OPTIONS": [
+   "A:A) ++        ", 
+   "B:B) >> ", 
+   "C:C) *（前置） ", 
+   "D:D) == "
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"32bit系统，通过有限循环延时，以下两个循环，哪个说法更对for ( int i=0; i<100000; i++);或者for（ volatile int i=0;i<100000;i++);\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、两个一样的，没区别", 
+   "B:B、前面的延时更短，后面的延时慢点", 
+   "C:C、前者编译会出错，后面的虽然有warning，但可以运行", 
+   "D:D、编译都能过，前面可能无法循环，后面才是有效循环"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"32位系统中，四字节对齐模式，struct data{    long m2;     char m1;    short m3;};sizeof（struct data)\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、12", 
+   "B:B、8", 
+   "C:C、7", 
+   "D:D、10"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"已知有定义static int b[5], a[2][3]={1,2,3,4,5,6};则以下说法正确的有（ )。 \"", 
+  "B_ANSWER": "A,D", 
+  "C_OPTIONS": [
+   "A:A)b中元素值为0   ", 
+   "B:B)b中元素没有定义，值不确定  ", 
+   "C:C)a[1][1]=4  ", 
+   "D:D)a[1][1]=5"
+  ]
+ }, 
+ {
+  "A_CONTENT": "linux伙伴系统和slab分配器的作用是", 
+  "B_ANSWER": "A,C,D", 
+  "C_OPTIONS": [
+   "A:A、伙伴系统一般解决外碎片，slab解决内碎片", 
+   "B:B、伙伴系统一般解决内碎片，slab解决外碎片", 
+   "C:C、伙伴系统分配内存以页为单位", 
+   "D:D、slab分配器的存储池中事先存放一定大小的对象"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"32bit系统unsigned char port = 0x5a;unsigned char result_8;result_8 = (～port) > > 4 ;result_8 应该是 ________________ \"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、0xAA", 
+   "B:B、0x0A", 
+   "C:C、0xFA", 
+   "D:D、0x3A"
+  ]
+ }, 
+ {
+  "A_CONTENT": "linux中的总线驱动设备模型描述正确的有", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:A、设备和驱动的匹配通过总线来决定", 
+   "B:B、设备和驱动的匹配通过自身逻辑决定", 
+   "C:C、这种模型，对于电源管理有好处", 
+   "D:D、总线上的一个驱动只能匹配一个设备"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Profiler测试工具的用图？", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A) 分析内存泄露", 
+   "B:B) 分析性能瓶颈", 
+   "C:C) 分析异常错误", 
+   "D:D) 分析栈溢出"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Linux 中断下半部常用的方式有哪些", 
+  "B_ANSWER": "A,C,D", 
+  "C_OPTIONS": [
+   "A:A、tasklet", 
+   "B:B、任务队列", 
+   "C:C、软中断", 
+   "D:D、工作队列"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"32位系统中，四字节对齐模式，struct data {    unsigned int ch   : 6;     unsigned int font  : 8;    unsigned int size : 18;};sizeof（struct data)\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、12", 
+   "B:B、4", 
+   "C:C、6", 
+   "D:D、5"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"函数调用语句：fseek（fp,-20L,2);的含义是（ )。 \"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A)将文件位置指针移到距离文件头20个字节处  ", 
+   "B:B)将文件位置指针从当前位置向后移动20个字节  ", 
+   "C:C)将文件位置指针从文件末尾处后退20个字节  ", 
+   "D:D)将文件位置指针移到距离当前位置20个字节处"
+  ]
+ }, 
+ {
+  "A_CONTENT": "设a是整型变量，则表达式（a=4*5，a*2)，a+6的值是? ", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A)20           ", 
+   "B:B)26            ", 
+   "C:C)40           ", 
+   "D:D)46"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"假设两个数组#define X 6#define Y 10int dst_index[X][Y];int src_index[Y][X];二位数组赋值操作中，以下哪段代码运行效率更高？\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A)for(int i=0;i<Y;i++){for(int j=0;j<X;j++){dst_index[j][i]=src_index[i][j];  }}", 
+   "B:B)for(int i=0;i<X;i++){for(int j=0;j<Y;j++){   dst_index[i][j]=src_index[j][i]; } }", 
+   "C:C)for(int i=X-1;i>=0;i--){ for(int j=Y-1;j>=0;j--){  dst_index[i][j]=src_index[j][i]; } }", 
+   "D:D)for(int i=Y-1;i>=0;i--){ for(int j=X-1;j>=0;j--){ dst_index[j][i]=src_index[i][j]; }}"
+  ]
+ }, 
+ {
+  "A_CONTENT": "有以下类的定义,其中出错的位置是(     ) class Csample {       Csample();       // A  public:        int a=10;         // B        Csample(int a0);  // C          ~Csample();       // D }; ", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A) 第2行", 
+   "B:B) 第4行", 
+   "C:C)第5行", 
+   "D:D第6行"
+  ]
+ }, 
+ {
+  "A_CONTENT": "C++ 中 int function(int) const 的意思是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A)函数不能重载", 
+   "B:B) 函数返回时const", 
+   "C:C)编译时，成员变量写操作，编译失败", 
+   "D:D) 运行时成员变量写操作会异常"
+  ]
+ }, 
+ {
+  "A_CONTENT": "类MyA的拷贝初始化构造函数是 （) ", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A) MyA() ", 
+   "B:B) MyA(MyA*) ", 
+   "C:C) MyA(MyA&) ", 
+   "D:D) MyA(MyA)"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"32位系统中，struct data{    unsigned int ch   : 6;     unsigned int font  : 8;    unsigned int size : 18;};struct data value = {0x5FB5,0x56FA,0x45CB6AFA}value.ch=______,value.size=_______\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、0xB5, 0x00CB6AFA", 
+   "B:B、0x35,0x00036aFA", 
+   "C:C、0x5fb5,0x00036afa", 
+   "D:D、0xFB5,0x000B6AFA"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"In a 32 bits platform char * d = malloc(12); sizeof(d) = ______\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、12", 
+   "B:B、4", 
+   "C:C、1", 
+   "D:D、13"
+  ]
+ }, 
+ {
+  "A_CONTENT": "如下代码的运行结果是#include <iostream>template <int T> struct X{    enum val {v = T * X<T-1>::v };};template <> struct X<0>{    enum val {v = 1 };};int main() { std::cout<<X<5>::v; }", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A) Compilation error", 
+   "B:B) Link error", 
+   "C:C) 120", 
+   "D:D）5"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下有关字符串赋值、赋初值的语句正确的有（ )。 ", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:A)char sz[2][40];sz[1]=“string1”;  ", 
+   "B:B)char *sz[2];sz[1]=“string2”;  ", 
+   "C:C)char sz[][40]=“string3”;   ", 
+   "D:D)char *sz[2]={“string1”,“string2”};"
+  ]
+ }, 
+ {
+  "A_CONTENT": "系统中的宏HZ定义的是什么", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:A、系统tick频率", 
+   "B:B、系统时钟中断的频率", 
+   "C:C、该值越大，调度越频繁", 
+   "D:D、对桌面时间有严重影响"
+  ]
+ }, 
+ {
+  "A_CONTENT": "两个进程争夺同一个资源（    ）。", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A)一定死锁                          ", 
+   "B:B)不一定死锁 ", 
+   "C:C)不会死锁                          ", 
+   "D:D)以上说法都不对"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"In a 32 bits platform char * a = “123456”;sizeof(a) = ______\"", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A、12", 
+   "B:B、7", 
+   "C:C、4", 
+   "D:D、1"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列哪个不是重载函数在调用时选择的依据？ ", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A)参数类型       ", 
+   "B:B)参数个数    ", 
+   "C:C)函数类型        ", 
+   "D:D)函数名"
+  ]
+ }, 
+ {
+  "A_CONTENT": "适宜采用inline定义函数情况是（) ", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A) 函数体含有循环语句 ", 
+   "B:B) 函数体含有递归语句 ", 
+   "C:C) 函数代码少、频繁调用 ", 
+   "D:D) 函数代码多、不常调用"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"32bit系统，有如下代码，编译时采用-Os 选项，那个说法更对void main(void){ char string1[6]; char string2[6]; strcpy(string1,”123456”); strcpy(string2,”123456”); printf(\"\"\"string1 is %s, string2 is %s\\n\"\"\",string1,string2);}\"", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、编译没有问题，两个string都是123456", 
+   "B:B、编译有warning，但两个string都是123456", 
+   "C:C、编译有warning，但运行有问题，string1覆盖string2的头", 
+   "D:D、编译有wanrning，但运行有问题，string2覆盖了string1的头"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"下面程序把数组元素中的最大值放入a[0]中，则在if语句中条件表达式可以是（ )。 void main（void)   {     int a[10]={5,2,9,6,7,1,12,8,23,0},*p=a,i;         for（i=0;i<10;i++,p++)     {       if（      )            *a=*p;          }    printf（“%d”,*a); }  \"", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:A)p>a  ", 
+   "B:B)*p>a[0]  ", 
+   "C:C)*p>*a[0]  ", 
+   "D:D)*p>*a "
+  ]
+ }, 
+ {
+  "A_CONTENT": "C、C++语法中以下变量名合法的是？", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:A)  int", 
+   "B:B)uint_8", 
+   "C:C)   int8", 
+   "D:D)  uint 8"
+  ]
+ }, 
+ {
+  "A_CONTENT": "32 bit 系统，struct tester {   int32 number;   union content{     uint16 value;     uint8  ch[sizeof(uint16)];   }};tester.number = 12;test.content.value =0x55aa;以下说法正确的是？", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A)编译不同过", 
+   "B:B) ch[0]=0xaa, ch[1]=0x55", 
+   "C:C) ch[0]=0x55, ch[1]=0xaa", 
+   "D:D) ch的输出要看情况，endian不同而不同。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "内核中的自旋锁和信号量有什么区别", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:A、自旋锁和信号量都能让进程睡眠", 
+   "B:B、自旋锁不能让进程睡眠，信号量可以", 
+   "C:C、信号量不能让进程睡眠，自旋锁可以", 
+   "D:D、自旋锁在SMP系统中表现更大作用"
+  ]
+ }, 
+ {
+  "A_CONTENT": "#include <io.h> 与#include \"io.h\"的区别？", 
+  "B_ANSWER": "C,D", 
+  "C_OPTIONS": [
+   "A:A) 前者，后者一样", 
+   "B:B) 前者从当前工作路径搜索，后者从系统指定路径搜索", 
+   "C:C) 和B相反", 
+   "D:D) 前者会从-I 指定的路径搜索，后者会在正在编译的C文件路径中搜索"
+  ]
+ }, 
+ {
+  "A_CONTENT": "计算机操作的最小单位时间是__？____。 ", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A．时钟周期；  ", 
+   "B:B．指令周期； ", 
+   "C:C．CPU周期；", 
+   "D:D．中断周期。"
+  ]
+ }, 
+ {
+  "A_CONTENT": "某LCD 为12bit色，且分辨率是640*480, 因此，压缩模式显示buffer应该多大?", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A. 1024       ", 
+   "B:B. 307200     ", 
+   "C:C. 460800         ", 
+   "D:D. 614400"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下属于白盒测试的概念有？", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A)单元测试", 
+   "B:B)集成测试", 
+   "C:C)分支覆盖", 
+   "D:D)静态检查"
+  ]
+ }, 
+ {
+  "A_CONTENT": "参见如下代码，当调用obj的方法 callFunc，将发生什么？ template <class X> func(X val) {}template <> func<double>(double val) {}class obj{    public:        callFunc() { func(4.5); }        private:                func(int val) {}};\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:a) func(int val)", 
+   "B:b) template <class X> func(X val)", 
+   "C:c) template <> func<double>(double val)"
+  ]
+ }, 
+ {
+  "A_CONTENT": "linux系统可能会在以下时机调度", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:A、中断返回到被中断的用户进程前", 
+   "B:B、中断返回到被中断的内核进程前", 
+   "C:C、系统调用返回到用户进程前", 
+   "D:D、中断上半部结束时"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"32bit 系统，有如下程序： #define  f（x)x*x  int a=~f(3); a = ______\"", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:A) a = 0xfffffff6;", 
+   "B:B)a = -12;", 
+   "C:C)a = 0xfffffff4; ", 
+   "D:D)a = -9;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "假设ClassY:publicX，则说明一个Y类的对象时和删除Y类对象时 ，调用构造函数和析构函数的次序分别为（) ", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A) X,Y；Y,X ", 
+   "B:B) X,Y；X,Y ", 
+   "C:C) Y,X；X,Y ", 
+   "D:D) Y,X；Y,X"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下函数在高端内存上获得地址的是", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、alloc_pages", 
+   "B:B、__get_free_pages", 
+   "C:C、kmalloc", 
+   "D:D、vmalloc "
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"In a 32 bits platform char b[12] = “123456”;Sizeof(b) = ______ \"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A、12", 
+   "B:B、7", 
+   "C:C、4", 
+   "D:D、1"
+  ]
+ }, 
+ {
+  "A_CONTENT": "派生类的对象对它的基类成员中（?)是可以访问的。   ", 
+  "B_ANSWER": "A,D", 
+  "C_OPTIONS": [
+   "A: A) 公有继承的公有成员      ", 
+   "B: B) 公有继承的私有成员    ", 
+   "C: C) 公有继承的保护成员，以基类操作      ", 
+   "D: D) 公有继承的保护成员，以派生类操作"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"如下c代码，描述正确的是   extern func();      void main(void){       int b = func(3，4);       printf(\"\"\"%d\\n\"\"\",b);   }   func（int a){        return a；   }\"", 
+  "B_ANSWER": "B,D", 
+  "C_OPTIONS": [
+   "A:A) 输出为4，编译有warning", 
+   "B:B) 输出为3，编译没有warning", 
+   "C:C)输出为随机数，因为方法没有定义返回值", 
+   "D:D)代码声明与定义不符，隐患较大，利用了C编译器的漏洞"
+  ]
+ }, 
+ {
+  "A_CONTENT": "kobject和kset在sysfs中对应的是", 
+  "B_ANSWER": "D", 
+  "C_OPTIONS": [
+   "A:A、kobject对应一个文件，kset对应一个目录", 
+   "B:B、kobject对应一个目录，kset对应一个文件", 
+   "C:C、kobject对应一个文件，kset对应一个文件", 
+   "D:D、kobject对应一个目录，kset对应一个目录"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"char array[]=”123”;const char carray[]=”123”;哪一个表达式是正确的 ______\"", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、const char * pch = array;*pch=’0’;", 
+   "B:B、 char *const pcch = array;*pcch = ‘0’;", 
+   "C:C、 char *pch = carray;*pch = ‘0’;", 
+   "D:D、 char *const pcch = carray;*pcch = ‘0’;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"以下宏定义的写法正确的是：________\"", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:\"A)#define DEF_CLASS(type)  typedef struct type##_class{#define END_CLASS(type)  }type##_class;DEF_CLASS(cp) int value;END_CLASS(cp)\"", 
+   "B:\"B)#define DEF_CLASS(type)  typedef struct type_class{#define END_CLASS(type)  }type##_class;DEF_CLASS(cp) int value;END_CLASS(cp)\"", 
+   "C:\"C)#define DEF_CLASS(type)  typedef struct type##_class{#define END_CLASS(type)  }type_class;DEF_CLASS(cp) int value;END_CLASS(cp)\"", 
+   "D:\"D)#define DEF_CLASS(type)  typedef struct type_class{#define END_CLASS(type)  }type_class;DEF_CLASS(cp) int value;END_CLASS(cp)\""
+  ]
+ }, 
+ {
+  "A_CONTENT": "Makefile 语法中，以下三个变量的含义是", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A) $?  是返回值 ； $^ 是目的；  $@是依赖条件 ", 
+   "B:B) $?  是依赖条件； $^ 是目的；  $@是返回值 ", 
+   "C:C) $?  是返回值 ； $^ 是依赖条件；  $@是目的 ", 
+   "D:D) $?  是目的 ； $^ 是依赖条件；  $@是返回值 "
+  ]
+ }, 
+ {
+  "A_CONTENT": "dma设备在计算机中的一般行为是", 
+  "B_ANSWER": "A,B,C,D", 
+  "C_OPTIONS": [
+   "A:A、dma可以把数据从内存传输到设备控制器", 
+   "B:B、dma可以把数据从设备控制器传输到内存", 
+   "C:C、dma在执行时，cpu正常进行其他操作，并行执行", 
+   "D:D、嵌入式系统中，很多dma集成在设备控制器内部"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Linux 中断上半部和下半部的区别是", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:A)上半部执行代码量尽量小", 
+   "B:B)上半部不能睡眠，下半部可以睡眠", 
+   "C:C)上半部由硬件触发", 
+   "D:D)上半部和下半部执行完成之后，才能执行新的中断"
+  ]
+ }, 
+ {
+  "A_CONTENT": "假定class AB；为一个类，则执行“AB  a(4) , b[3] , *p[2];”语句时，自动调用该类构造函数的次数为 (?)", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A) 3", 
+   "B:B) 4", 
+   "C:C) 6", 
+   "D:D) 9"
+  ]
+ }, 
+ {
+  "A_CONTENT": "linux内核驱动调试的一般方法有", 
+  "B_ANSWER": "A,B,C", 
+  "C_OPTIONS": [
+   "A:A、打印调试", 
+   "B:B、procfs文件接口调试", 
+   "C:C、sysfs文件接口调试", 
+   "D:D、一般只能通过打印方式调试"
+  ]
+ }, 
+ {
+  "A_CONTENT": "mmap系统调用的一般行为描述正确的是", 
+  "B_ANSWER": "B,C", 
+  "C_OPTIONS": [
+   "A:A、会在内核空间随机找到一块存储区域映射到用户空间", 
+   "B:B、会把内核空间中指定的存储区域映射到用户空间", 
+   "C:C、映射后，访问时，减少了系统调用的开销", 
+   "D:D、映射后的访问依然要通过系统调用方式来执行"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"假设有如下定义：   char *s[2]={“abcd”，“ABCD”};   char **p=s;  则下列说法正确的有（ )。\"", 
+  "B_ANSWER": "A,C,D", 
+  "C_OPTIONS": [
+   "A:A)s数组元素的值分别是“abcd”和“ABCD”两个字符串的首地址   ", 
+   "B:B)s数组的两个元素分别存放的是含有四个字符的一维字符数组中的元素 ", 
+   "C:C)p是指向指针数据的指针变量  ", 
+   "D:D)p中存放的是数组s的首地址"
+  ]
+ }, 
+ {
+  "A_CONTENT": "以下关于标准linux的描述，那些是正确的?", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A. linux 2.6.X 内核支持抢占式调度    ", 
+   "B:B. linux 已经逐步改为微内核架构", 
+   "C:C. linux 的线程调度与进程调度器是不同的模块", 
+   "D:D. linux 中/proc 是系统信息在文件存储里的镜像"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列判断不正确的有（ )。 ", 
+  "B_ANSWER": "A,C,D", 
+  "C_OPTIONS": [
+   "A:A)char *a=“china”;等价于 char *a;*a=“china”;   ", 
+   "B:B)char str[6]={“china”};等价于char str[ ]= {“china”};  ", 
+   "C:C)char s=“china”;等价于char s;s=“china”;  ", 
+   "D:D)char c[4]=“abc”，d[4]=“abc”;等价于char c[4]=d[4]=“abc”;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "若变量定义时未初始化，则其值不确定的是（ )。", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A)静态全局变量  ", 
+   "B:B)静态局部变量  ", 
+   "C:C)局部变量  ", 
+   "D:D)全局变量"
+  ]
+ }, 
+ {
+  "A_CONTENT": "在中断上下文中，kmalloc函数的行为修饰符应用哪个", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A、GFP_KERNEL", 
+   "B:B、GFP_ATOMIC", 
+   "C:C、GFP_NOFS", 
+   "D:D、GFP_NOIO"
+  ]
+ }, 
+ {
+  "A_CONTENT": "字符串\"a\\x44\\\\\\nbcd\\102a\"的长度是（ )。 ", 
+  "B_ANSWER": "C", 
+  "C_OPTIONS": [
+   "A:A)12  ", 
+   "B:B)17  ", 
+   "C:C)9  ", 
+   "D:D)11"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下列不能作为类的成员的是（)", 
+  "B_ANSWER": "B", 
+  "C_OPTIONS": [
+   "A:A) 自身类对象的指针 ", 
+   "B:B) 自身类对象 ", 
+   "C:C) 自身类对象的引用 ", 
+   "D:D) 另一个类的对象"
+  ]
+ }, 
+ {
+  "A_CONTENT": "假设有三个动态库，a.so, b.so, c.so, a和C都依赖于b，那用gcc 编译链接可执行程序用到了abc三个库中的接口，以下写法那个对", 
+  "B_ANSWER": "C,D", 
+  "C_OPTIONS": [
+   "A:A) gcc -o test test.c -I/usr/include -la -lb -lc", 
+   "B:B) gcc -o test -I/usr/include -la -lc -lb test.c ", 
+   "C:C) gcc -I/usr/include test.c -lc -la -lb -o test", 
+   "D:D) gcc -o test -I/usr/include test.c -la -lc -lb"
+  ]
+ }, 
+ {
+  "A_CONTENT": "下面哪些运算符不能被重载下面哪些运算符不能被重载下面哪些运算符不能被重载下面哪些运算符不能被重载？？？？  ", 
+  "B_ANSWER": "A,B,D", 
+  "C_OPTIONS": [
+   "A:A) 做用域运算符“::” ", 
+   "B:B) 对象成员运算符“.” ", 
+   "C:C) 指针成员运算符“->” ", 
+   "D:D) 三目运算符“? :"
+  ]
+ }, 
+ {
+  "A_CONTENT": "\"32bit 系统，判断某外设的16位寄存器变量bit2是否为0,是则置为1，有如下程序： #define BIT2  0x4   哪个写法是正确的\"", 
+  "B_ANSWER": "A,C", 
+  "C_OPTIONS": [
+   "A:A) if(!(reg&BIT2)) reg|=BIT2;", 
+   "B:B)if(reg&BIT2==0) reg&=BIT2;", 
+   "C:C)if((reg|~BIT2)==~BIT2) reg|=BIT2;", 
+   "D:D)if((reg|~BIT2)==~BIT2) reg&=BIT2;"
+  ]
+ }, 
+ {
+  "A_CONTENT": "Linux中c库函数和系统调用函数的关系是", 
+  "B_ANSWER": "A", 
+  "C_OPTIONS": [
+   "A:A)c库函数封装系统调用", 
+   "B:B)系统调用封装c库函数", 
+   "C:C)根据使用的函数，不一定"
+  ]
+ }
+]
